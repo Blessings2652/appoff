@@ -1,0 +1,571 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="app_name">AppOff</string>
+    <string name="notif_channel_name">AppOff Monitor</string>
+    <string name="notif_channel_desc">Live free-RAM readout with a one-tap clean action</string>
+
+    <string name="system_monitor">SYSTEM MONITOR</string>
+    <string name="ram_cleaner">APPOFF</string>
+    <string name="system_normal">SYSTEM NORMAL</string>
+    <string name="app_drainers">APP DRAINERS</string>
+    <string name="running_processes">RUNNING PROCESSES</string>
+    <string name="settings">Settings</string>
+
+    <!-- Customization -->
+    <string name="font_size">Font Size</string>
+    <string name="font_size_min">A</string>
+    <string name="font_size_max">A</string>
+    <string name="icon_style">Icon Style</string>
+    <string name="icon_rounded">Rounded</string>
+    <string name="icon_sharp">Sharp</string>
+    <string name="icon_cyberpunk">Cyberpunk</string>
+
+    <!-- Developer Power Tools -->
+    <string name="developer_power_tools">Developer Power Tools</string>
+    <string name="wireless_debugging">Wireless Debugging</string>
+    <string name="enable_dev_options">Enable Developer Options</string>
+    <string name="debug_desc">Toggle system-level debugging features</string>
+
+    <!-- Language -->
+    <string name="app_language">App Language</string>
+
+    <!-- Common -->
+    <string name="back">Back</string>
+    <string name="done">DONE</string>
+    <string name="ok">OK</string>
+    <string name="cancel">CANCEL</string>
+    <string name="close">CLOSE</string>
+    <string name="save">SAVE</string>
+    <string name="apply">APPLY</string>
+    <string name="got_it">GOT IT</string>
+    <string name="searching">Searching...</string>
+    <string name="select_all">SELECT ALL</string>
+    <string name="deselect_all">DESELECT ALL</string>
+    <string name="show_system">SHOW SYSTEM</string>
+    <string name="hide_system">HIDE SYSTEM</string>
+    <string name="search_processes">Search processes...</string>
+    <string name="search_apps">Search apps...</string>
+    <string name="permission_required">Permission Required</string>
+    <string name="grant">GRANT</string>
+    <string name="open_settings">OPEN SETTINGS</string>
+    <string name="requires_root_hibernate">Requires Root or Shizuku</string>
+    <string name="usage_access_required">Usage Access Required</string>
+
+    <!-- Main Screen -->
+    <string name="system_action_required">SYSTEM ACTION REQUIRED</string>
+    <string name="system_health_optimal">SYSTEM HEALTH: OPTIMAL</string>
+    <string name="calibrating_system">CALIBRATING SYSTEM...</string>
+    <string name="critical_performance">CRITICAL PERFORMANCE</string>
+    <string name="heavy_system_load">HEAVY SYSTEM LOAD</string>
+    <string name="clean_system">CLEAN SYSTEM</string>
+    <string name="system_cleaner">System Cleaner</string>
+    <string name="ram_recovered">%1$s RAM recovered</string>
+    <string name="processes_cleared">%1$d processes cleared</string>
+    <string name="apps_selected_count">%1$d apps selected</string>
+    <string name="running_processes_desc">Tap an app to select it for optimization. Use the (⋮) menu for deep actions like Force Stop or Suspend.</string>
+
+    <!-- Settings Screen -->
+    <string name="system_configuration">System Configuration</string>
+    <string name="appearance">Appearance</string>
+    <string name="app_theme">App Theme</string>
+    <string name="accent_color">Accent Color</string>
+    <string name="card_color">Card Color</string>
+    <string name="haptic_feedback">Haptic Feedback</string>
+    <string name="haptic_feedback_desc">Trigger haptic pulse on task completion.</string>
+    <string name="feedback_strength">Feedback Strength</string>
+    <string name="low">LOW</string>
+    <string name="high">HIGH</string>
+    <string name="automation">Automation</string>
+    <string name="system_tweaks">System Tweaks</string>
+    <string name="turbo_mode">Turbo Mode</string>
+    <string name="turbo_mode_desc">Aggressive background cleanup for low-memory devices</string>
+    <string name="floating_ram_bubble">Floating RAM Bubble</string>
+    <string name="floating_ram_bubble_desc">Real-time RAM monitor on top of other apps</string>
+    <string name="fast_animations">Fast Animations</string>
+    <string name="fast_animations_desc">Speed up UI transitions (requires WRITE_SECURE_SETTINGS)</string>
+    <string name="force_hw_accel">Force Hardware Acceleration</string>
+    <string name="force_hw_accel_desc">Force GPU rendering for all apps (requires WRITE_SECURE_SETTINGS)</string>
+    <string name="developer_options">Developer Options</string>
+    <string name="developer_options_desc">Access system-level developer settings</string>
+    <string name="troubleshooting">Troubleshooting</string>
+    <string name="troubleshooting_desc">If apps aren\'t being stopped or optimization feels slow, use the tools below.</string>
+    <string name="refresh_engine_state">Refresh Engine State</string>
+    <string name="battery_optimization_disabled">Battery Optimization: Disabled</string>
+    <string name="disable_battery_limits">Disable Battery Limits</string>
+    <string name="manage_permissions">Manage Permissions</string>
+    <string name="technical_audit">Technical Audit</string>
+    <string name="permission_hub">Permission Hub</string>
+    <string name="permission_hub_desc">Audit system privileges &amp; auto-grant</string>
+    <string name="app_info">App Info</string>
+    <string name="about">About</string>
+    <string name="about_desc">AppOff is a precision system utility designed for high-performance device maintenance and kernel-level resource management.</string>
+    <string name="copyright">© 2026 The Black Sheep. All rights reserved.</string>
+    <string name="version">Version</string>
+    <string name="build">Build</string>
+    <string name="developed_by">DEVELOPED BY THE BLACK SHEEP</string>
+
+    <!-- Optimization Tasks -->
+    <string name="ram_boost">RAM Boost</string>
+    <string name="ram_boost_desc">Inject memory pressure to purge background cache processes.</string>
+    <string name="app_hibernation">App Hibernation</string>
+    <string name="app_hibernation_desc">Deep force-stop for all selected applications.</string>
+    <string name="cache_purge">Cache Purge</string>
+    <string name="cache_purge_desc">Force trim all package caches to recover storage-based RAM.</string>
+    <string name="ram_refresh">RAM Refresh</string>
+    <string name="ram_refresh_desc">Nudge system to reclaim memory from background services.</string>
+    <string name="secure_settings_tweak">Secure Settings Tweak</string>
+    <string name="secure_settings_tweak_desc">Optimization system parameters for aggressive background management.</string>
+    <string name="kernel_optimization">Kernel Optimization</string>
+    <string name="kernel_optimization_desc">Dropping pagecaches and inodes for hardware-level reset.</string>
+
+    <!-- App Locker -->
+    <string name="app_locker_title">APP LOCKER</string>
+    <string name="enable_locker">Enable Locker</string>
+    <string name="secure_apps_pin">Secure apps with a PIN</string>
+    <string name="set_locker_pin">Set Locker PIN</string>
+    <string name="enter_pin_desc">Enter a 4-digit numeric PIN to secure your apps.</string>
+    <string name="pin">PIN</string>
+    <string name="set_pin">SET PIN</string>
+    <string name="change_pin">CHANGE PIN</string>
+    <string name="search_apps_to_lock">Search apps to lock...</string>
+
+    <!-- Diagnostics Screen -->
+    <string name="diagnostics_title">SYSTEM DIAGNOSTICS</string>
+    <string name="live_utilization">LIVE UTILIZATION</string>
+    <string name="cpu_load">CPU Load</string>
+    <string name="gpu_load">GPU Load</string>
+    <string name="ram_used">RAM Used</string>
+    <string name="current_fps">Current FPS</string>
+    <string name="processing_power">Processing Power</string>
+    <string name="cpu_hardware">CPU Hardware</string>
+    <string name="core_count">Core Count</string>
+    <string name="ram_capacity">RAM Capacity</string>
+    <string name="internal_storage">INTERNAL STORAGE</string>
+    <string name="storage_used">Used: %1$s</string>
+    <string name="storage_total">Total: %1$s</string>
+    <string name="battery_health">Battery Health</string>
+    <string name="current_level">Current Level</string>
+    <string name="temperature">Temperature</string>
+    <string name="health_status">Health Status</string>
+    <string name="system_software">System Software</string>
+    <string name="security">Security</string>
+
+    <!-- Hardware Testing -->
+
+    <!-- Junk Cleaner -->
+    <string name="junk_cleaner">Junk Cleaner</string>
+    <string name="total_junk_detected">TOTAL JUNK DETECTED</string>
+    <string name="junk_clean_desc">Clean storage to improve read/write speed</string>
+    <string name="junk_deep_scan_desc">Deep storage scan requires \'All Files Access\' to find junk outside app folders.</string>
+    <string name="storage_clean">Storage is clean</string>
+    <string name="purge_junk">PURGE JUNK</string>
+    <string name="purging">PURGING...</string>
+    <string name="fstrim">HARDWARE STORAGE TRIM (FSTRIM)</string>
+
+    <!-- System Tools -->
+    <string name="advanced_system_tools">ADVANCED SYSTEM TOOLS</string>
+    <string name="monitoring">Monitoring</string>
+    <string name="task_manager">Task Manager</string>
+    <string name="task_manager_desc">Manage running processes and OOM scores</string>
+    <string name="screen_time">Screen Time</string>
+    <string name="screen_time_desc">Track app usage and digital wellbeing</string>
+    <string name="network_connectivity">Network &amp; Connectivity</string>
+    <string name="ping_utility">Ping Utility</string>
+    <string name="ping_utility_desc">Test network latency and stability</string>
+    <string name="usb_utilities">USB Utilities</string>
+    <string name="usb_utilities_desc">Manage USB tethering and file transfer</string>
+    <!-- Freezer -->
+    <string name="app_freezer">App Freezer</string>
+    <string name="freeze_all">Freeze All</string>
+    <string name="unfreeze_all">Unfreeze All</string>
+    <string name="no_apps_found">No apps found</string>
+    <string name="frozen_hibernated">FROZEN &amp; HIBERNATED</string>
+    <string name="active_background">ACTIVE IN BACKGROUND</string>
+    <string name="freeze_desc">App freezing requires Engine or Root to function. Please enable one in Settings.</string>
+
+    <!-- Game Booster -->
+    <string name="game_booster_pro">GAME BOOSTER PRO</string>
+    <string name="hardware_tweaks">HARDWARE TWEAKS</string>
+    <string name="installed_games">INSTALLED GAMES</string>
+    <string name="add_game">ADD GAME</string>
+    <string name="no_games_detected">No games detected. Launch them manually to optimize.</string>
+    <string name="boost">BOOST</string>
+    <string name="launch">LAUNCH</string>
+    <string name="preparing_game">Preparing Game</string>
+    <string name="disabled_apps">Disabled Apps</string>
+    <string name="no_disabled_apps_found">No disabled apps found</string>
+    <string name="shield_whitelist">Shield (Whitelist)</string>
+    <string name="no_apps_protected">No apps protected</string>
+
+    <!-- Overlay / Dialogs -->
+    <string name="system_optimization">SYSTEM OPTIMIZATION</string>
+    <string name="cpu_cooling">CPU COOLING</string>
+    <string name="do_not_close">Do not close the app during execution</string>
+    <string name="secure_settings_instructions">Secure tweaks require elevated permissions. Tap a command below to copy it:</string>
+    <string name="write_settings_instructions">For WRITE_SETTINGS, you can use the system settings button below or ADB:</string>
+    <string name="hibernate_clean">HIBERNATE &amp; CLEAN</string>
+    <string name="purge_caches">PURGE CACHES</string>
+    <string name="cleanup_confirm_title">Confirm Cleanup</string>
+    <string name="optimization_strength">Optimization Strength</string>
+    <string name="optimization_tasks">Optimization Tasks</string>
+    <string name="apps_hibernated_count">%1$d apps will be hibernated</string>
+    <string name="apps_optimized_count">%1$d apps will be optimized</string>
+    <string name="boost_mode">Mode: %1$s</string>
+    <string name="add_game_as_game">Add App as Game</string>
+    <string name="optimizing_resources">Optimizing system resources for %1$s...</string>
+    <string name="hibernating_background_apps">Hibernating background apps</string>
+    <string name="locking_high_priority_ram">Locking high-priority RAM</string>
+    <string name="applying_gpu_mode">Applying GPU performance mode</string>
+
+    <string name="core_count_val">%1$d Cores</string>
+    <string name="optimize_runtime">OPTIMIZE RUNTIME</string>
+    <string name="initializing">Initializing...</string>
+    <string name="no_active_connections">No active TCP connections found.</string>
+    <string name="local_val">Local: %1$s</string>
+    <string name="remote_val">Remote: %1$s</string>
+    <string name="apps_with_permission">Apps with this permission:</string>
+    <string name="select_permission_desc">Select a permission to see granted apps</string>
+    <string name="apps_have_permission">%1$d apps have this permission</string>
+    <string name="system_resource_load">System Resource Load</string>
+    <string name="ram_load">RAM Load</string>
+    <string name="network_latency">Network Latency</string>
+    <string name="ms_val">%1$d ms</string>
+    <string name="rtt_desc">RTT to Google DNS (8.8.8.8)</string>
+    <string name="screen_time_title">Screen Time (Last 24h)</string>
+    <string name="no_usage_data">No usage data available or permission denied</string>
+
+    <!-- Battery Health -->
+    <string name="health_good">Good</string>
+    <string name="health_overheat">Overheat</string>
+    <string name="health_dead">Dead</string>
+    <string name="health_over_voltage">Over Voltage</string>
+    <string name="health_unknown">Unknown</string>
+
+    <!-- CPU -->
+    <string name="cpu_unknown">Unknown</string>
+
+    <!-- Toasts -->
+    <string name="permissions_granted">All essential permissions granted</string>
+    <string name="requires_engine_root">Requires Engine or Root for auto-grant</string>
+    <string name="engine_refreshed">Engine state refreshed</string>
+
+    <!-- App Usage -->
+    <string name="app_memory_usage">APP MEMORY USAGE</string>
+
+    <!-- Additional Strings -->
+    <string name="whats_new_title">What\'s New in 2.0.0</string>
+    <string name="feature_app_usage_title">Resident App Memory</string>
+    <string name="feature_app_usage_desc">Track real-time PSS usage for every active process.</string>
+    <string name="feature_auto_kill_title">Auto-Kill Protection</string>
+    <string name="feature_auto_kill_desc">New dashboard card to manage background safety.</string>
+    <string name="feature_shield_title">Advanced Shielding</string>
+    <string name="feature_shield_desc">Fail-safe protection prevents closing whitelisted apps.</string>
+    <string name="feature_engine_title">High-Speed Engine</string>
+    <string name="feature_engine_desc">Parallel data gathering for instant app loading.</string>
+    <string name="feature_standalone_title">Engine Independence</string>
+    <string name="feature_standalone_desc">Enhanced app monitoring without requiring Shizuku.</string>
+    <string name="process_analysis">Process Analysis</string>
+    <string name="system_health">System Health</string>
+    <string name="process_analysis_desc">Detailed hardware-level process monitoring</string>
+    <string name="system_health_desc">Real-time system integrity and log audit</string>
+    <string name="run_deep_analysis">RUN DEEP ANALYSIS</string>
+    <string name="audit_logs">AUDIT LOGS</string>
+    <string name="recent_system_errors">Recent System Errors: %1$d</string>
+    <string name="no_errors_found">No critical system errors detected.</string>
+    <string name="process_name">Name</string>
+    <string name="oom_score">OOM</string>
+    <string name="adj_label">ADJ</string>
+    <string name="essential_privileges">ESSENTIAL PRIVILEGES</string>
+    <string name="one_tap_auto_grant">ONE-TAP AUTO-GRANT</string>
+    <string name="freezer_label">FREEZER</string>
+    <string name="ice_box">ICE BOX</string>
+    <string name="suspended">SUSPENDED</string>
+    <string name="scanning">SCANNING</string>
+    <string name="threat_scan">THREAT SCAN</string>
+    <string name="clean_on_boot">Clean on Boot</string>
+    <string name="optimize_on_startup">Optimize system immediately after startup</string>
+    <string name="auto_clean_background">Auto Clean Background</string>
+    <string name="auto_clean_result">Auto-Clean Result</string>
+    <string name="auto_clean_result_desc">Show notification after background cleanup</string>
+    <string name="auto_kill_background">Auto-Kill Background</string>
+    <string name="auto_kill_background_desc">Force-stop apps after 1 minute in background</string>
+    <string name="auto_kill_inactive">Auto-Kill Inactive</string>
+    <string name="auto_kill_inactive_desc">Force-stop apps after 5 minutes of inactivity</string>
+    <string name="ram_threshold">RAM THRESHOLD</string>
+    <string name="custom_accent_color">Custom Accent Color</string>
+    <string name="enter_hex_code">Enter Hex Code (e.g., FF5722)</string>
+    <string name="dev_opts">DEV OPTS</string>
+    <string name="grant_permission">GRANT PERMISSION</string>
+    <string name="uninstall_system_app">Uninstall System App?</string>
+    <string name="uninstall_confirm_desc">Are you sure you want to uninstall %1$s? This will remove it for the current user. Some system apps are essential for device stability.</string>
+    <string name="uninstall">UNINSTALL</string>
+    <string name="launch_app">Launch App</string>
+    <string name="force_stop">Force Stop</string>
+    <string name="clear_cache">Clear Cache</string>
+    <string name="limit_background_life">Limit Background Life</string>
+    <string name="uninstall_bloatware">Uninstall (Bloatware)</string>
+    <string name="reinstall_bloatware">Reinstall (Bloatware)</string>
+    <string name="reinstall_system_app">Reinstall System App</string>
+    <string name="reinstall">REINSTALL</string>
+    <string name="app_reinstalled">✓ App reinstalled successfully</string>
+    <string name="reinstall_failed">Reinstall failed</string>
+    <string name="reinstalling_app_task">Reinstalling app...</string>
+    <string name="cooler_label">COOLER</string>
+    <string name="cpu_temp_label">CPU TEMP</string>
+    <string name="enable_label">ENABLE</string>
+    <string name="enable_app">Enable App</string>
+    <string name="disable_app">Disable App</string>
+    <string name="unsuspend_app">Unsuspend App</string>
+    <string name="suspend_app">Suspend App</string>
+    <string name="allow_background_run">Allow Background Run</string>
+    <string name="ignore_background_run">Ignore Background Run</string>
+    <string name="unshield">Unshield</string>
+    <string name="quick_boost">QUICK BOOST</string>
+    <string name="flush_processes">Flush background processes</string>
+    <string name="deep_clean">DEEP CLEAN</string>
+    <string name="aggressive_opt">Aggressive system optimization</string>
+    <string name="disabled_label">DISABLED</string>
+    <string name="apps_hidden">APPS HIDDEN</string>
+    <string name="shield_label">SHIELD</string>
+    <string name="home_label">Home</string>
+    <string name="apps_label">Apps</string>
+    <string name="snapshot_label">Snapshot</string>
+    <string name="diagnostics_label">Diagnostics</string>
+    <string name="drainer_label">Drainer</string>
+    <string name="shielded_protection">Shield Protection Active</string>
+    <string name="auto_kill_protection">AUTO-KILL PROTECTION</string>
+    <string name="auto_kill_desc">Prevent selected apps from being closed by background optimization. Protect essential services and notifications.</string>
+    <string name="apps_protected_count">%1$d APPS PROTECTED</string>
+    <string name="hex_prefix">#</string>
+    <string name="enter_pin">Enter PIN</string>
+    <string name="app_locked">APP LOCKED</string>
+    <string name="invalid_pin">Invalid PIN. Please try again.</string>
+    <string name="unlock">UNLOCK</string>
+    <string name="monitoring_protected_apps">Monitoring protected applications</string>
+    <string name="app_locker_active">App Locker Active</string>
+
+    <!-- Operation Status -->
+    <string name="quick_boost_task">Quick RAM Boost...</string>
+    <string name="deep_opt_task">Deep System Optimization...</string>
+    <string name="initializing_task">Initializing...</string>
+    <string name="scanning_storage_task">Scanning storage...</string>
+    <string name="purging_junk_task">Purging junk...</string>
+    <string name="cooling_cpu_task">Cooling CPU...</string>
+    <string name="waking_app_task">Waking app from hibernation...</string>
+    <string name="native_vm_opt_task">Native &amp; VM Optimization...</string>
+    <string name="freezing_apps_task">Freezing apps...</string>
+    <string name="unfreezing_apps_task">Unfreezing apps...</string>
+    <string name="clearing_cache_task">Clearing app cache...</string>
+    <string name="uninstalling_app_task">Uninstalling app...</string>
+
+    <!-- Success Messages -->
+    <string name="quick_boost_complete">✓ Quick boost complete: %1$s freed</string>
+    <string name="deep_clean_complete">✓ Deep clean complete: %1$s freed</string>
+    <string name="hardware_optimized">Optimized hardware for %1$s</string>
+    <string name="app_unfrozen">✓ App unfrozen</string>
+    <string name="app_frozen">✓ App frozen</string>
+    <string name="all_apps_frozen">✓ All apps already frozen</string>
+    <string name="apps_frozen_count">✓ %1$d/%2$d apps frozen</string>
+    <string name="no_frozen_apps_found">✓ No frozen apps found</string>
+    <string name="apps_unfrozen_count">✓ %1$d/%2$d apps unfrozen</string>
+    <string name="app_suspended">✓ App suspended</string>
+    <string name="app_unsuspended">✓ App unsuspended</string>
+    <string name="app_disabled">✓ App disabled</string>
+    <string name="app_enabled">✓ App enabled</string>
+    <string name="app_force_stopped">✓ App force stopped</string>
+    <string name="bg_run_ignored">✓ Background run ignored</string>
+    <string name="bg_run_allowed">✓ Background run allowed</string>
+    <string name="standby_label">✓ Standby: %1$s</string>
+    <string name="cache_cleared">✓ Cache cleared for %1$s</string>
+    <string name="cleaned_msg">Cleaned %1$s</string>
+    <string name="cleaned_others_msg">Cleaned %1$s and %2$d others</string>
+    <string name="uninstall_success">App uninstalled successfully</string>
+
+    <!-- Error/Warning Messages -->
+    <string name="system_blocked_launch">System blocked launch: %1$s</string>
+    <string name="launcher_not_found">Launcher activity not found for %1$s</string>
+    <string name="usage_settings_error">Unable to open usage settings</string>
+    <string name="freeze_requires_access">❌ Freeze requires Shizuku or Root</string>
+    <string name="unfreeze_requires_access">❌ Unfreeze requires Shizuku or Root</string>
+    <string name="op_in_progress">⏳ Operation in progress</string>
+    <string name="app_not_found">✗ App not found</string>
+    <string name="freeze_failed">✗ Failed to freeze app</string>
+    <string name="unfreeze_failed">✗ Failed to unfreeze app</string>
+    <string name="suspend_requires_pie">⚠️ Suspend requires Android 9+</string>
+    <string name="unsuspend_requires_pie">⚠️ Unsuspend requires Android 9+</string>
+    <string name="activity_not_available">Activity not available</string>
+    <string name="force_stop_failed">✗ Failed to force stop app</string>
+    <string name="bg_update_failed">✗ Failed to update background setting</string>
+    <string name="standby_update_failed">✗ Failed to update standby bucket</string>
+    <string name="cache_clear_failed">✗ Failed to clear cache for %1$s</string>
+    <string name="uninstall_failed">Uninstall failed</string>
+    <string name="requires_android_11">Requires Android 11+</string>
+    <string name="operation_failed">Operation failed</string>
+
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="theme_black">Black</string>
+    <string name="theme_system">System</string>
+
+    <string name="app_drainers_desc">These apps have high background activity vs foreground use. Hibernating them will significantly extend battery life.</string>
+    <string name="selection_label">SELECTION</string>
+    <string name="core_label">CORE</string>
+
+    <!-- Diagnostics Labels -->
+    <string name="healthy_desc">All hardware systems are performing correctly.</string>
+    <string name="action_required_desc">Some systems require optimization.</string>
+    <string name="vm_runtime_health">VM Runtime Health</string>
+    <string name="dalvik_art_heap">Dalvik/ART Heap</string>
+    <string name="native_heap">Native Heap</string>
+    <string name="vm_version">VM Version</string>
+    <string name="shell_engine">Shell Engine</string>
+    <string name="binder_status">Binder Bridge</string>
+    <string name="shell_mode_root">Root (Aggressive)</string>
+    <string name="shell_mode_shizuku">Shizuku (Engine)</string>
+    <string name="shell_mode_standard">Standard (Limited)</string>
+    <string name="binder_healthy">Healthy</string>
+    <string name="binder_disconnected">Disconnected</string>
+    <string name="cluster_freq_hub">Cluster Frequency Hub</string>
+    <string name="core_val">CORE %1$d</string>
+    <string name="kernel_ram_profile">Kernel RAM Profile</string>
+    <string name="active_in_use">Active (In-Use)</string>
+    <string name="inactive_standby">Inactive (Standby)</string>
+    <string name="kernel_slab">Kernel Slab</string>
+    <string name="kernel_slab_desc">Kernel Slab memory contains cached kernel objects like inodes and dentries. Deep optimization will flush these to disk.</string>
+    <string name="ram_arch_breakdown">RAM Architecture Breakdown</string>
+    <string name="physical_capacity">Physical Capacity</string>
+    <string name="cached_buffers">Cached / Buffers</string>
+    <string name="reclaimable_slab">Reclaimable Slab</string>
+    <string name="zram_swap_total">ZRAM / Swap Total</string>
+    <string name="zram_swap_free">ZRAM / Swap Free</string>
+    <string name="cached_memory_desc">Cached memory is immediately available to apps when needed. High cached values are healthy as they speed up app launches.</string>
+    <string name="realtime_network">Real-time Network</string>
+    <string name="download">DOWNLOAD</string>
+    <string name="upload">UPLOAD</string>
+
+    <string name="performance_mode">Performance Mode</string>
+    <string name="unlock_hardware_desc">Unlock hardware potential for system speed</string>
+    <string name="booster_active">BOOSTER ACTIVE</string>
+    <string name="game_booster">GAME BOOSTER</string>
+    <string name="launch_booster">Launch GameBooster</string>
+    <string name="install_booster_desc">Install GameBooster for peak gaming</string>
+    <string name="high_perf">High Perf</string>
+
+    <!-- Optimization Modes -->
+    <string name="standard">Standard</string>
+    <string name="active">Active</string>
+    <string name="system">System</string>
+    <string name="privileged">Privileged</string>
+    <string name="optimization_mode">Optimization Mode</string>
+    <string name="shizuku">Shizuku</string>
+    <!-- Privileged access card (replaces the old Optimization Mode picker) -->
+    <string name="privileged_access">Shizuku Access</string>
+    <string name="access_root_title">Root access active</string>
+    <string name="access_root_desc">Everything is unlocked automatically - nothing to set up.</string>
+    <string name="access_ready_title">Shizuku connected</string>
+    <string name="access_ready_desc">Deep hibernate, freeze and your settings are applied automatically.</string>
+    <string name="access_applying_title">Applying your settings…</string>
+    <string name="access_applying_desc">Granting permissions and applying your tweaks. This only takes a moment.</string>
+    <string name="access_grant_title">Allow AppOff to use Shizuku</string>
+    <string name="access_grant_desc">Shizuku is running. Tap once and confirm - everything turns on right away.</string>
+    <string name="access_grant_button">Grant access</string>
+    <string name="access_start_title">Start Shizuku</string>
+    <string name="access_start_desc">Shizuku is installed but not running. Start it, then come back - access is detected automatically.</string>
+    <string name="access_start_button">Open Shizuku</string>
+    <string name="access_install_title">Shizuku not installed</string>
+    <string name="access_install_desc">Install Shizuku to unlock deep hibernate, freeze and one-tap permissions.</string>
+    <string name="access_install_button">Install Shizuku</string>
+    <string name="shizuku_access_denied">Shizuku access was denied</string>
+    <string name="shizuku_allow_in_app">Allow AppOff in the Shizuku app</string>
+    <string name="shizuku_ready_toast">Shizuku connected - settings applied</string>
+    <string name="service_running">Service Running</string>
+    <string name="tap_to_grant">Tap to Grant</string>
+    <string name="not_connected">Not Connected</string>
+    <string name="root">Root</string>
+    <string name="kernel_access">Kernel Access</string>
+    <string name="not_rooted">Not Rooted</string>
+    <string name="system_mode_hint">Using privileged system permissions to force-stop and clear caches.</string>
+    <string name="shizuku_grant_hint">Tap again to grant permission.</string>
+    <string name="shizuku_not_running">Engine isn\'t running — tap to start the setup app.</string>
+    <string name="shizuku_not_found">Engine not found — tap to install from Play Store.</string>
+    <string name="shizuku_not_running_toast">Shizuku service is not running. Opening Shizuku app to start it…</string>
+    <string name="shizuku_not_running_dialog_title">Shizuku Service Not Running</string>
+    <string name="shizuku_not_running_dialog_msg">Shizuku is installed on your device, but the Shizuku service is currently stopped.\n\nPlease open Shizuku and start the service (e.g. via Wireless Debugging or ADB command), then return to AppOff.</string>
+    <string name="shizuku_open_button">Open Shizuku</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="root_granted_hint">ROOT ACCESS GRANTED: Kernel-level optimization active.</string>
+    <string name="no_root_hint">No root access detected.</string>
+    <string name="threat_count_detected">%1$d THREATS</string>
+    <string name="secure">SECURE</string>
+    <string name="optimization_result_banner">%1$s optimized: %2$s · %3$s</string>
+    <string name="granted_label">GRANTED</string>
+    <string name="missing_label">MISSING</string>
+    <string name="enable_engine_desc">Enable Engine (Shizuku) or Root to automate permission setup.</string>
+    <!-- App Intro / Onboarding -->
+    <string name="intro_skip">Skip</string>
+    <string name="intro_next">Next</string>
+    <string name="intro_back">Back</string>
+    <string name="intro_get_started">GET STARTED</string>
+    <string name="intro_replay">App Intro Tour</string>
+
+    <string name="intro_slide1_tag">OPTIMIZATION ENGINE</string>
+    <string name="intro_slide1_title">AppOff Memory Optimization</string>
+    <string name="intro_slide1_desc">Reclaim lost memory, purge cached junk, and inject pressure on background hogs to keep your phone operating at peak speed.</string>
+
+    <string name="intro_slide2_tag">ELEVATED PRIVILEGES</string>
+    <string name="intro_slide2_title">Shizuku &amp; Root Engine</string>
+    <string name="intro_slide2_desc">Unlock deep hibernation, freeze stubborn background drainers, and automate system permission setup without PC commands.</string>
+
+    <string name="intro_slide3_tag">INTELLIGENT GUARD</string>
+    <string name="intro_slide3_title">Battery &amp; Thermal Protection</string>
+    <string name="intro_slide3_desc">Detect power drainers in real-time, enforce standby buckets, and prevent thermal throttling during heavy gaming sessions.</string>
+
+    <string name="intro_slide4_tag">YOU ARE IN CONTROL</string>
+    <string name="intro_slide4_title">Full Control &amp; Customization</string>
+    <string name="intro_slide4_desc">Shield important apps from being cleaned, customize icon shapes, dark themes, and configure high refresh rate gaming modes.</string>
+    <string name="searching_junk">Searching for junk files...</string>
+    <string name="disabled_apps_desc">These apps are currently disabled and won\'t appear in your system app drawer. You can re-enable them here.</string>
+    <string name="shield_desc">Apps in this list will be ignored during cleaning and optimization processes.</string>
+    <string name="beginner_safelist_title">Recommended Beginner Safe List</string>
+    <string name="beginner_safelist_desc">Automatically protect popular messaging (WhatsApp, Telegram), email, banking, maps, clock, keyboard &amp; default apps from being closed.</string>
+    <string name="beginner_safelist_btn">Apply Beginner Safe List</string>
+    <string name="beginner_safelist_added_count">Shielded %1$d recommended essential apps!</string>
+    <string name="beginner_safelist_already_applied">All recommended essential apps are already shielded.</string>
+    <string name="beginner_safelist_no_apps_found">No matching recommended apps found on device.</string>
+
+    <!-- App Architecture & Safety Classification -->
+    <string name="safe_to_disable">Safe to Disable</string>
+    <string name="caution_system_app">Caution</string>
+    <string name="danger_to_disable">Danger to Disable</string>
+    <string name="arch_64bit">64-bit</string>
+    <string name="arch_32bit">32-bit</string>
+    <string name="arch_64bit_desc">64-bit Architecture (ARM64 / x86_64)</string>
+    <string name="arch_32bit_desc">32-bit Architecture (ARMv7 / x86)</string>
+    <string name="app_details_title">App Details &amp; Safety</string>
+    <string name="danger_critical_title">⛔ DANGER: CRITICAL SYSTEM APP</string>
+    <string name="danger_critical_subtitle">NOT RECOMMENDED TO DISABLE OR UNINSTALL</string>
+    <string name="danger_critical_desc">This app is a core system component required for Android OS stability. Disabling, force stopping, or uninstalling this app is NOT recommended as it may cause system crashes, bootloops, or prevent essential device functions like phone calls and system settings.</string>
+    <string name="danger_critical_rec">💡 Recommendation: Keep this app enabled and protected. Do NOT disable or uninstall.</string>
+    <string name="caution_system_title">⚠️ SYSTEM APPLICATION (USE CAUTION)</string>
+    <string name="caution_system_subtitle">PROCEED WITH CAUTION</string>
+    <string name="caution_system_desc">This is a pre-installed system application. Disabling this app will turn off its background features. Proceed with caution as some vendor features or launcher widgets may depend on it.</string>
+    <string name="caution_system_rec">💡 Recommendation: Safe to disable if you do not use this app, but verify system dependencies.</string>
+    <string name="safe_user_title">✅ RECOMMENDED TO DISABLE OR UNINSTALL</string>
+    <string name="safe_user_subtitle">SAFE TO DISABLE &amp; UNINSTALL</string>
+    <string name="safe_user_desc">This is a user-installed application. It is recommended to disable or uninstall if you no longer use it to save memory (RAM), battery life, and storage space.</string>
+    <string name="safe_user_rec">💡 Recommendation: Recommended to uninstall or disable if unused.</string>
+    <string name="critical_app_warning_title">Critical System App Warning</string>
+    <string name="critical_app_warning_desc">You are attempting to modify %1$s, which is a critical system app. Disabling or uninstalling this app may render your device unusable or cause system crashes. Do you still want to proceed?</string>
+    <string name="proceed_risk">PROCEED ANYWAY</string>
+    <string name="architecture_label">Architecture</string>
+    <string name="app_type_label">App Type</string>
+    <string name="system_application">System Application</string>
+    <string name="user_installed_application">User Installed Application</string>
+    <string name="memory_usage_label">RAM Usage</string>
+    <string name="status_label">Current Status</string>
+    <string name="recommended_removals">Recommended</string>
+    <string name="recommended_removals_desc">Each app gets a risk score from its permissions, services, default roles and the apps that depend on it. System apps are disabled (reversible); unused apps you installed can be uninstalled. Tap a badge to see why.</string>
+    <string name="no_recommendations">Nothing to recommend right now</string>
+    <string name="recommend_show_advanced">Show advanced (needs dependency check)</string>
+    <string name="recommend_hidden_protected">%1$d protected packages hidden</string>
+    <string name="recommend_analyzing">Analyzing packages…</string>
+</resources>

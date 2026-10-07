@@ -1,0 +1,370 @@
+<resources>
+    <string name="app_name">AppOff</string>
+    <string name="notif_channel_name">AppOff Monitor</string>
+    <string name="notif_channel_desc">Текущий объем свободной ОЗУ с возможностью очистки одним касанием</string>
+
+    <string name="system_monitor">МОНИТОР СИСТЕМЫ</string>
+    <string name="ram_cleaner">APPOFF</string>
+    <string name="app_drainers">ПОТРЕБИТЕЛИ РЕСУРСОВ</string>
+    <string name="running_processes">ЗАПУЩЕННЫЕ ПРОЦЕССЫ</string>
+    <string name="settings">Настройки</string>
+
+    <!-- Customization -->
+    <string name="font_size">Размер шрифта</string>
+    <string name="icon_style">Стиль значков</string>
+    <string name="icon_rounded">Закругленные</string>
+    <string name="icon_sharp">Острые</string>
+    <string name="icon_cyberpunk">Киберпанк</string>
+
+    <!-- Developer Power Tools -->
+    <string name="developer_power_tools">Инструменты разработчика</string>
+    <string name="wireless_debugging">Беспроводная отладка</string>
+    <string name="enable_dev_options">Включить параметры разработчика</string>
+    <string name="debug_desc">Переключение функций отладки на уровне системы</string>
+
+    <!-- Language -->
+    <string name="app_language">Язык приложения</string>
+
+    <!-- Common -->
+    <string name="back">Назад</string>
+    <string name="done">ГОТОВО</string>
+    <string name="ok">ОК</string>
+    <string name="cancel">ОТМЕНА</string>
+    <string name="close">ЗАКРЫТЬ</string>
+    <string name="save">СОХРАНИТЬ</string>
+    <string name="apply">ПРИМЕНИТЬ</string>
+    <string name="got_it">ПОНЯТНО</string>
+    <string name="searching">Поиск…</string>
+    <string name="select_all">ВЫБРАТЬ ВСЕ</string>
+    <string name="deselect_all">СНЯТЬ ВЫДЕЛЕНИЕ</string>
+    <string name="show_system">ПОКАЗАТЬ СИСТЕМНЫЕ</string>
+    <string name="hide_system">СКРЫТЬ СИСТЕМНЫЕ</string>
+    <string name="search_processes">Поиск процессов…</string>
+    <string name="search_apps">Поиск приложений…</string>
+    <string name="permission_required">Требуется разрешение</string>
+    <string name="grant">ПРЕДОСТАВИТЬ</string>
+    <string name="open_settings">ОТКРЫТЬ НАСТРОЙКИ</string>
+    <string name="requires_root_hibernate">Требуется Root или глубокая гибернация</string>
+
+    <!-- Main Screen -->
+    <string name="system_action_required">ТРЕБУЕТСЯ СИСТЕМНОЕ ДЕЙСТВИЕ</string>
+    <string name="system_health_optimal">СОСТОЯНИЕ СИСТЕМЫ: ОПТИМАЛЬНОЕ</string>
+    <string name="calibrating_system">КАЛИБРОВКА СИСТЕМЫ…</string>
+    <string name="critical_performance">КРИТИЧЕСКАЯ ПРОИЗВОДИТЕЛЬНОСТЬ</string>
+    <string name="heavy_system_load">ВЫСОКАЯ НАГРУЗКА НА СИСТЕМУ</string>
+    <string name="clean_system">ОЧИСТИТЬ СИСТЕМУ</string>
+    <string name="system_cleaner">Очистка системы</string>
+    <string name="ram_recovered">Освобождено ОЗУ: %1$s</string>
+    <string name="processes_cleared">Очищено процессов: %1$d</string>
+    <string name="apps_selected_count">Выбрано приложений: %1$d</string>
+    <string name="running_processes_desc">Нажмите на приложение, чтобы выбрать его для оптимизации. Используйте меню (⋮) для глубоких действий, таких как принудительная остановка или приостановка.</string>
+
+    <!-- Settings Screen -->
+    <string name="system_configuration">Конфигурация системы</string>
+    <string name="optimization_mode">Режим оптимизации</string>
+    <string name="appearance">Внешний вид</string>
+    <string name="app_theme">Тема приложения</string>
+    <string name="theme_light">Светлая</string>
+    <string name="theme_dark">Темная</string>
+    <string name="theme_black">Черная</string>
+    <string name="theme_system">Системная</string>
+    <string name="accent_color">Акцентный цвет</string>
+    <string name="card_color">Цвет карточек</string>
+    <string name="haptic_feedback">Тактильная отдача</string>
+    <string name="haptic_feedback_desc">Виброотклик при завершении задачи.</string>
+    <string name="feedback_strength">Сила отдачи</string>
+    <string name="low">НИЗКАЯ</string>
+    <string name="high">ВЫСОКАЯ</string>
+    <string name="automation">Автоматизация</string>
+    <string name="system_tweaks">Системные твики</string>
+    <string name="turbo_mode">Турбо-режим</string>
+    <string name="turbo_mode_desc">Агрессивная очистка фона для устройств с малым объемом памяти</string>
+    <string name="floating_ram_bubble">Плавающий индикатор ОЗУ</string>
+    <string name="floating_ram_bubble_desc">Мониторинг ОЗУ в реальном времени поверх других приложений</string>
+    <string name="fast_animations">Быстрые анимации</string>
+    <string name="fast_animations_desc">Ускорение переходов интерфейса (требуется WRITE_SECURE_SETTINGS)</string>
+    <string name="force_hw_accel">Принудительное аппаратное ускорение</string>
+    <string name="force_hw_accel_desc">GPU-рендеринг для всех приложений (требуется WRITE_SECURE_SETTINGS)</string>
+    <string name="developer_options">Параметры разработчика</string>
+    <string name="developer_options_desc">Доступ к системным настройкам разработчика</string>
+    <string name="troubleshooting">Устранение неполадок</string>
+    <string name="troubleshooting_desc">Если приложения не останавливаются или оптимизация кажется медленной, используйте инструменты ниже.</string>
+    <string name="refresh_engine_state">Обновить состояние движка</string>
+    <string name="battery_optimization_disabled">Оптимизация батареи: Отключена</string>
+    <string name="disable_battery_limits">Отключить ограничения батареи</string>
+    <string name="manage_permissions">Управление разрешениями</string>
+    <string name="technical_audit">Технический аудит</string>
+    <string name="permission_hub">Центр разрешений</string>
+    <string name="permission_hub_desc">Аудит системных привилегий и автопредоставление</string>
+    <string name="app_info">О приложении</string>
+    <string name="version">Версия</string>
+    <string name="build">Сборка</string>
+    <string name="developed_by">РАЗРАБОТАНО THE BLACK SHEEP</string>
+
+    <!-- Optimization Tasks -->
+    <string name="ram_boost">Ускорение ОЗУ</string>
+    <string name="ram_boost_desc">Создание нагрузки на память для очистки фоновых кешированных процессов.</string>
+    <string name="app_hibernation">Гибернация приложений</string>
+    <string name="app_hibernation_desc">Глубокая принудительная остановка выбранных приложений.</string>
+    <string name="cache_purge">Очистка кеша</string>
+    <string name="cache_purge_desc">Принудительная очистка всех кешей приложений для освобождения памяти.</string>
+    <string name="ram_refresh">Обновление ОЗУ</string>
+    <string name="ram_refresh_desc">Запрос системе на возврат памяти из фоновых служб.</string>
+    <string name="secure_settings_tweak">Твик безопасных настроек</string>
+    <string name="secure_settings_tweak_desc">Оптимизация системных параметров для агрессивного управления фоном.</string>
+    <string name="kernel_optimization">Оптимизация ядра</string>
+    <string name="kernel_optimization_desc">Сброс кешей страниц и инодов для сброса на уровне железа.</string>
+
+    <!-- App Locker -->
+    <string name="app_locker_title">ЗАМОК ПРИЛОЖЕНИЙ</string>
+    <string name="enable_locker">Включить замок</string>
+    <string name="secure_apps_pin">Защита приложений PIN-кодом</string>
+    <string name="set_locker_pin">Установить PIN-код</string>
+    <string name="enter_pin_desc">Введите 4-значный цифровой PIN-код для защиты приложений.</string>
+    <string name="pin">PIN</string>
+    <string name="set_pin">УСТАНОВИТЬ PIN</string>
+    <string name="change_pin">ИЗМЕНИТЬ PIN</string>
+    <string name="search_apps_to_lock">Поиск приложений для блокировки…</string>
+
+    <!-- Diagnostics Screen -->
+    <string name="diagnostics_title">СИСТЕМНАЯ ДИАГНОСТИКА</string>
+    <string name="live_utilization">ТЕКУЩЕЕ ИСПОЛЬЗОВАНИЕ</string>
+    <string name="cpu_load">Нагрузка ЦП</string>
+    <string name="gpu_load">Нагрузка ГП</string>
+    <string name="ram_used">Использовано ОЗУ</string>
+    <string name="current_fps">Текущий FPS</string>
+    <string name="processing_power">Мощность обработки</string>
+    <string name="cpu_hardware">Процессор</string>
+    <string name="core_count">Количество ядер</string>
+    <string name="ram_capacity">Объем ОЗУ</string>
+    <string name="internal_storage">ВНУТРЕННЯЯ ПАМЯТЬ</string>
+    <string name="storage_used">Использовано: %1$s</string>
+    <string name="storage_total">Всего: %1$s</string>
+    <string name="battery_health">Состояние батареи</string>
+    <string name="current_level">Текущий уровень</string>
+    <string name="temperature">Температура</string>
+    <string name="health_status">Статус здоровья</string>
+    <string name="system_software">ПО системы</string>
+    <string name="security">Безопасность</string>
+
+    <!-- Hardware Testing -->
+
+    <!-- Junk Cleaner -->
+    <string name="junk_cleaner">Очистка мусора</string>
+    <string name="total_junk_detected">ВСЕГО МУСОРА ОБНАРУЖЕНО</string>
+    <string name="junk_clean_desc">Очистка памяти для повышения скорости чтения/записи</string>
+    <string name="junk_deep_scan_desc">Глубокое сканирование требует доступа ко всем файлам для поиска мусора вне папок приложений.</string>
+    <string name="searching_junk">Поиск мусорных файлов…</string>
+    <string name="storage_clean">Память чиста</string>
+    <string name="purge_junk">УДАЛИТЬ МУСОР</string>
+    <string name="purging">УДАЛЕНИЕ…</string>
+    <string name="fstrim">АППАРАТНАЯ ОПТИМИЗАЦИЯ ХРАНИЛИЩА (FSTRIM)</string>
+
+    <!-- System Tools -->
+    <string name="advanced_system_tools">СИСТЕМНЫЕ ИНСТРУМЕНТЫ</string>
+    <string name="monitoring">Мониторинг</string>
+    <string name="task_manager">Диспетчер задач</string>
+    <string name="task_manager_desc">Управление процессами и приоритетами OOM</string>
+    <string name="screen_time">Экранное время</string>
+    <string name="screen_time_desc">Отслеживание использования приложений</string>
+    <string name="network_connectivity">Сеть и подключения</string>
+    <string name="ping_utility">Утилита Ping</string>
+    <string name="ping_utility_desc">Тест задержки и стабильности сети</string>
+    <string name="usb_utilities">USB-инструменты</string>
+    <string name="usb_utilities_desc">Управление USB-модемом и передачей файлов</string>
+    <!-- Freezer -->
+    <string name="app_freezer">Заморозка приложений</string>
+    <string name="freeze_all">Заморозить все</string>
+    <string name="unfreeze_all">Разморозить все</string>
+    <string name="no_apps_found">Приложения не найдены</string>
+    <string name="frozen_hibernated">ЗАМОРОЖЕНО И В ГИБЕРНАЦИИ</string>
+    <string name="active_background">АКТИВНО В ФОНЕ</string>
+    <string name="freeze_desc">Заморозка требует движок или Root. Включите их в настройках.</string>
+
+    <!-- Game Booster -->
+    <string name="game_booster_pro">GAME BOOSTER PRO</string>
+    <string name="hardware_tweaks">ТВИКИ ЖЕЛЕЗА</string>
+    <string name="installed_games">УСТАНОВЛЕННЫЕ ИГРЫ</string>
+    <string name="add_game">ДОБАВИТЬ ИГРУ</string>
+    <string name="no_games_detected">Игры не обнаружены. Запустите их вручную для оптимизации.</string>
+    <string name="boost">УСКОРИТЬ</string>
+    <string name="launch">ЗАПУСК</string>
+    <string name="preparing_game">Подготовка игры</string>
+
+    <!-- Overlay / Dialogs -->
+    <string name="system_optimization">ОПТИМИЗАЦИЯ СИСТЕМЫ</string>
+    <string name="cpu_cooling">ОХЛАЖДЕНИЕ ЦП</string>
+    <string name="do_not_close">Не закрывайте приложение во время работы</string>
+    <string name="hibernate_clean">ГИБЕРНАЦИЯ И ОЧИСТКА</string>
+    <string name="purge_caches">ОЧИСТИТЬ КЕШИ</string>
+    <string name="cleanup_confirm_title">Подтверждение очистки</string>
+    <string name="optimization_strength">Сила оптимизации</string>
+    <string name="optimization_tasks">Задачи оптимизации</string>
+    <string name="boost_mode">Режим: %1$s</string>
+    <string name="add_game_as_game">Добавить как игру</string>
+    <string name="optimizing_resources">Оптимизация системных ресурсов для %1$s…</string>
+    <string name="hibernating_background_apps">Гибернация фоновых приложений</string>
+    <string name="locking_high_priority_ram">Блокировка приоритетной ОЗУ</string>
+    <string name="applying_gpu_mode">Применение режима производительности ГП</string>
+    <string name="disabled_apps">Отключенные приложения</string>
+    <string name="disabled_apps_desc">Эти приложения отключены и не видны в меню. Вы можете включить их здесь.</string>
+    <string name="no_disabled_apps_found">Отключенных приложений не найдено</string>
+    <string name="shield_whitelist">Щит (белый список)</string>
+    <string name="shield_desc">Приложения в этом списке будут игнорироваться при оптимизации.</string>
+    <string name="no_apps_protected">Нет защищенных приложений</string>
+
+    <string name="core_count_val">Ядер: %1$d</string>
+    <string name="optimize_runtime">ОПТИМИЗАЦИЯ RUNTIME</string>
+    <string name="initializing">Инициализация…</string>
+    <string name="no_active_connections">Активных TCP-соединений не найдено.</string>
+    <string name="local_val">Локально: %1$s</string>
+    <string name="remote_val">Удаленно: %1$s</string>
+    <string name="apps_with_permission">Приложения с этим разрешением:</string>
+    <string name="select_permission_desc">Выберите разрешение, чтобы увидеть приложения</string>
+    <string name="apps_have_permission">Разрешение имеют %1$d прилож.</string>
+    <string name="system_resource_load">Нагрузка на ресурсы системы</string>
+    <string name="ram_load">Нагрузка ОЗУ</string>
+    <string name="network_latency">Задержка сети</string>
+    <string name="ms_val">%1$d мс</string>
+    <string name="rtt_desc">RTT до Google DNS (8.8.8.8)</string>
+    <string name="screen_time_title">Экранное время (24 ч)</string>
+    <string name="no_usage_data">Нет данных об использовании</string>
+
+    <!-- Battery Health -->
+    <string name="health_good">Хорошее</string>
+    <string name="health_overheat">Перегрев</string>
+    <string name="health_dead">Мертвая</string>
+    <string name="health_over_voltage">Перенапряжение</string>
+    <string name="health_unknown">Неизвестно</string>
+
+    <!-- CPU -->
+    <string name="cpu_unknown">Неизвестно</string>
+
+    <!-- Toasts -->
+    <string name="permissions_granted">Все разрешения предоставлены</string>
+    <string name="requires_engine_root">Требуется движок или Root для автопредоставления</string>
+    <string name="engine_refreshed">Состояние движка обновлено</string>
+
+    <!-- App Usage -->
+    <string name="app_memory_usage">ИСПОЛЬЗОВАНИЕ ПАМЯТИ</string>
+    <!-- Optimization Modes -->
+    <string name="standard">Стандартный</string>
+    <string name="active">Активный</string>
+    <string name="system">Система</string>
+    <string name="privileged">Привилегированный</string>
+    <string name="shizuku">Shizuku</string>
+    <string name="service_running">Служба запущена</string>
+    <string name="tap_to_grant">Нажмите для предоставления</string>
+    <string name="not_connected">Не подключено</string>
+    <string name="root">Root</string>
+    <string name="kernel_access">Доступ к ядру</string>
+    <string name="not_rooted">Root не найден</string>
+    <string name="system_mode_hint">Использование привилегированных системных разрешений для принудительной остановки и очистки кеша.</string>
+    <string name="shizuku_grant_hint">Нажмите еще раз, чтобы предоставить разрешение.</string>
+    <string name="shizuku_not_running">Движок не запущен — нажмите, чтобы запустить приложение настройки.</string>
+    <string name="shizuku_not_found">Движок не найден — нажмите, чтобы установить из Play Store.</string>
+    <string name="root_granted_hint">ROOT-ДОСТУП ПРЕДОСТАВЛЕН: Активна оптимизация на уровне ядра.</string>
+    <string name="no_root_hint">Root-доступ не обнаружен.</string>
+
+    <string name="booster_active">УСКОРИТЕЛЬ АКТИВЕН</string>
+    <string name="game_booster">ИГРОВОЙ УСКОРИТЕЛЬ</string>
+    <string name="launch_booster">Запустить GameBooster</string>
+    <string name="install_booster_desc">Установите GameBooster для макс. производительности</string>
+    <string name="high_perf">Выс. произв.</string>
+    <string name="threat_count_detected">УГРОЗ: %1$d</string>
+    <string name="secure">БЕЗОПАСНО</string>
+    <string name="granted_label">ПРЕДОСТАВЛЕНО</string>
+    <string name="missing_label">ОТСУТСТВУЕТ</string>
+    <!-- Operation Status -->
+    <string name="quick_boost_task">Быстрое ускорение ОЗУ…</string>
+    <string name="deep_opt_task">Глубокая оптимизация системы…</string>
+    <string name="initializing_task">Инициализация…</string>
+    <string name="scanning_storage_task">Сканирование памяти…</string>
+    <string name="purging_junk_task">Удаление мусора…</string>
+    <string name="cooling_cpu_task">Охлаждение ЦП…</string>
+    <string name="waking_app_task">Вывод приложения из гибернации…</string>
+    <string name="native_vm_opt_task">Оптимизация Native и VM…</string>
+    <string name="freezing_apps_task">Заморозка приложений…</string>
+    <string name="unfreezing_apps_task">Разморозка приложений…</string>
+    <string name="clearing_cache_task">Очистка кеша приложений…</string>
+    <string name="uninstalling_app_task">Удаление приложения…</string>
+
+    <!-- Success Messages -->
+    <string name="quick_boost_complete">✓ Быстрое ускорение завершено: освобождено %1$s</string>
+    <string name="deep_clean_complete">✓ Глубокая очистка завершена: освобождено %1$s</string>
+    <string name="hardware_optimized">Оборудование оптимизировано для %1$s</string>
+    <string name="app_unfrozen">✓ Приложение разморожено</string>
+    <string name="app_frozen">✓ Приложение заморожено</string>
+    <string name="all_apps_frozen">✓ Все приложения уже заморожены</string>
+    <string name="apps_frozen_count">✓ Заморожено приложений: %1$d/%2$d</string>
+    <string name="no_frozen_apps_found">✓ Замороженных приложений не найдено</string>
+    <string name="apps_unfrozen_count">✓ Разморожено приложений: %1$d/%2$d</string>
+    <string name="app_suspended">✓ Приложение приостановлено</string>
+    <string name="app_unsuspended">✓ Приложение восстановлено</string>
+    <string name="app_disabled">✓ Приложение отключено</string>
+    <string name="app_enabled">✓ Приложение включено</string>
+    <string name="app_force_stopped">✓ Приложение остановлено принудительно</string>
+    <string name="bg_run_ignored">✓ Фоновая работа игнорируется</string>
+    <string name="bg_run_allowed">✓ Фоновая работа разрешена</string>
+    <string name="standby_label">✓ Ожидание: %1$s</string>
+    <string name="cache_cleared">✓ Кеш очищен для %1$s</string>
+    <string name="cleaned_msg">Очищено %1$s</string>
+    <string name="cleaned_others_msg">Очищено %1$s и еще %2$d</string>
+    <string name="uninstall_success">Приложение успешно удалено</string>
+
+    <!-- Error/Warning Messages -->
+    <string name="system_blocked_launch">Система заблокировала запуск: %1$s</string>
+    <string name="launcher_not_found">Активность запуска не найдена для %1$s</string>
+    <string name="usage_settings_error">Не удалось открыть настройки использования</string>
+    <string name="freeze_requires_access">❌ Для заморозки требуется Shizuku или Root</string>
+    <string name="unfreeze_requires_access">❌ Для разморозки требуется Shizuku или Root</string>
+    <string name="op_in_progress">⏳ Операция выполняется</string>
+    <string name="app_not_found">✗ Приложение не найдено</string>
+    <string name="freeze_failed">✗ Не удалось заморозить приложение</string>
+    <string name="unfreeze_failed">✗ Не удалось разморозить приложение</string>
+    <string name="suspend_requires_pie">⚠️ Приостановка требует Android 9+</string>
+    <string name="unsuspend_requires_pie">⚠️ Восстановление требует Android 9+</string>
+    <string name="activity_not_available">Активность недоступна</string>
+    <string name="force_stop_failed">✗ Не удалось принудительно остановить приложение</string>
+    <string name="bg_update_failed">✗ Не удалось обновить фоновую настройку</string>
+    <string name="standby_update_failed">✗ Не удалось обновить уровень ожидания</string>
+    <string name="cache_clear_failed">✗ Не удалось очистить кеш для %1$s</string>
+    <string name="uninstall_failed">Не удалось удалить</string>
+    <string name="requires_android_11">Требуется Android 11+</string>
+    <string name="operation_failed">Операция не удалась</string>
+    <!-- Diagnostics Labels -->
+    <string name="healthy_desc">Все аппаратные системы работают исправно.</string>
+    <string name="action_required_desc">Некоторые системы требуют оптимизации.</string>
+    <string name="vm_runtime_health">Состояние среды выполнения VM</string>
+    <string name="dalvik_art_heap">Куча Dalvik/ART</string>
+    <string name="native_heap">Нативная куча</string>
+    <string name="vm_version">Версия VM</string>
+    <string name="cluster_freq_hub">Концентратор частоты кластера</string>
+    <string name="core_val">ЯДРО %1$d</string>
+    <string name="kernel_ram_profile">Профиль RAM ядра</string>
+    <string name="active_in_use">Активно (Используется)</string>
+    <string name="inactive_standby">Неактивно (Ожидание)</string>
+    <string name="kernel_slab">Kernel Slab</string>
+    <string name="kernel_slab_desc">Память Kernel Slab содержит кэшированные объекты ядра, такие как inodes и dentries. Глубокая оптимизация сбросит их на диск.</string>
+    <string name="ram_arch_breakdown">Структура архитектуры RAM</string>
+    <string name="physical_capacity">Физическая емкость</string>
+    <string name="cached_buffers">Кэш / Буферы</string>
+    <string name="reclaimable_slab">Reclaimable Slab</string>
+    <string name="zram_swap_total">ZRAM / Swap всего</string>
+    <string name="zram_swap_free">ZRAM / Swap свободно</string>
+    <string name="cached_memory_desc">Кэшированная память мгновенно доступна приложениям при необходимости. Высокие значения кэша полезны, так как они ускоряют запуск приложений.</string>
+    <string name="realtime_network">Сеть в реальном времени</string>
+    <string name="download">ЗАГРУЗКА</string>
+    <string name="upload">ВЫГРУЗКА</string>
+    <string name="optimization_result_banner">%1$s оптимизировано: %2$s · %3$s</string>
+
+    <string name="app_drainers_desc">Эти приложения имеют высокую фоновую активность по сравнению с использованием в активном режиме. Их гибернация значительно продлит срок службы батареи.</string>
+    <string name="selection_label">ВЫБОР</string>
+    <string name="core_label">ЯДРО</string>
+    <string name="auto_clean_result">Результат автоочистки</string>
+    <string name="auto_clean_result_desc">Показывать уведомление после фоновой очистки</string>
+    <string name="auto_kill_background">Автозавершение фоновых</string>
+    <string name="auto_kill_background_desc">Принудительно останавливать приложения через 1 минуту в фоне</string>
+    <string name="auto_kill_inactive">Автозавершение неактивных</string>
+    <string name="auto_kill_inactive_desc">Принудительно останавливать приложения через 5 минут бездействия</string>
+</resources>

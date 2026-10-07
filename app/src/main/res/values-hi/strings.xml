@@ -1,0 +1,370 @@
+<resources>
+    <string name="app_name">AppOff</string>
+    <string name="notif_channel_name">AppOff Monitor</string>
+    <string name="notif_channel_desc">एक-टैप क्लीन एक्शन के साथ लाइव फ्री-रैम रीडआउट</string>
+
+    <string name="system_monitor">सिस्टम मॉनिटर</string>
+    <string name="ram_cleaner">APPOFF</string>
+    <string name="app_drainers">ऐप ड्रेनर्स</string>
+    <string name="running_processes">चल रही प्रक्रियाएं</string>
+    <string name="settings">सेटिंग</string>
+
+    <!-- Customization -->
+    <string name="font_size">फ़ॉन्ट आकार</string>
+    <string name="icon_style">आइकन शैली</string>
+    <string name="icon_rounded">गोल</string>
+    <string name="icon_sharp">तीव्र</string>
+    <string name="icon_cyberpunk">साइबरपंक</string>
+
+    <!-- Developer Power Tools -->
+    <string name="developer_power_tools">डेवलपर पावर टूल्स</string>
+    <string name="wireless_debugging">वायरलेस डिबगिंग</string>
+    <string name="enable_dev_options">डेवलपर विकल्प सक्षम करें</string>
+    <string name="debug_desc">सिस्टम-स्तरीय डिबगिंग सुविधाओं को टॉगल करें</string>
+
+    <!-- Language -->
+    <string name="app_language">ऐप की भाषा</string>
+
+    <!-- Common -->
+    <string name="back">पीछे</string>
+    <string name="done">हो गया</string>
+    <string name="ok">ठीक है</string>
+    <string name="cancel">रद्द करें</string>
+    <string name="close">बंद करें</string>
+    <string name="save">सहेजें</string>
+    <string name="apply">लागू करें</string>
+    <string name="got_it">समझ गया</string>
+    <string name="searching">खोज रहा है…</string>
+    <string name="select_all">सभी चुनें</string>
+    <string name="deselect_all">सभी का चयन हटाएँ</string>
+    <string name="show_system">सिस्टम दिखाएं</string>
+    <string name="hide_system">सिस्टम छुपाएं</string>
+    <string name="search_processes">प्रक्रियाएं खोजें…</string>
+    <string name="search_apps">ऐप्स खोजें…</string>
+    <string name="permission_required">अनुमति आवश्यक</string>
+    <string name="grant">अनुमति दें</string>
+    <string name="open_settings">सेटिंग खोलें</string>
+    <string name="requires_root_hibernate">रूट या डीप हाइबरनेट की आवश्यकता है</string>
+
+    <!-- Main Screen -->
+    <string name="system_action_required">सिस्टम कार्रवाई आवश्यक</string>
+    <string name="system_health_optimal">सिस्टम स्वास्थ्य: इष्टतम</string>
+    <string name="calibrating_system">सिस्टम को कैलिब्रेट किया जा रहा है…</string>
+    <string name="critical_performance">गंभीर प्रदर्शन</string>
+    <string name="heavy_system_load">भारी सिस्टम लोड</string>
+    <string name="clean_system">सिस्टम साफ करें</string>
+    <string name="system_cleaner">सिस्टम क्लीनर</string>
+    <string name="ram_recovered">%1$s रैम रिकवर हुई</string>
+    <string name="processes_cleared">%1$d प्रक्रियाएं साफ की गईं</string>
+    <string name="apps_selected_count">%1$d ऐप्स चुने गए</string>
+    <string name="running_processes_desc">अनुकूलन के लिए किसी ऐप को चुनने के लिए उस पर टैप करें। फोर्स स्टॉप या सस्पेंड जैसी गहरी कार्रवाइयों के लिए (⋮) मेनू का उपयोग करें।</string>
+
+    <!-- Settings Screen -->
+    <string name="system_configuration">सिस्टम कॉन्फ़िगरेशन</string>
+    <string name="optimization_mode">अनुकूलन मोड</string>
+    <string name="appearance">दिखावट</string>
+    <string name="app_theme">ऐप थीम</string>
+    <string name="theme_light">लाइट</string>
+    <string name="theme_dark">डार्क</string>
+    <string name="theme_black">ब्लैक</string>
+    <string name="theme_system">सिस्टम</string>
+    <string name="accent_color">एक्सेंट रंग</string>
+    <string name="card_color">कार्ड का रंग</string>
+    <string name="haptic_feedback">हैप्टिक फीडबैक</string>
+    <string name="haptic_feedback_desc">कार्य पूरा होने पर हैप्टिक पल्स ट्रिगर करें।</string>
+    <string name="feedback_strength">फीडबैक शक्ति</string>
+    <string name="low">कम</string>
+    <string name="high">उच्च</string>
+    <string name="automation">स्वचालन</string>
+    <string name="system_tweaks">सिस्टम ट्वीक्स</string>
+    <string name="turbo_mode">टर्बो मोड</string>
+    <string name="turbo_mode_desc">कम मेमोरी वाले उपकरणों के लिए आक्रामक बैकग्राउंड सफाई</string>
+    <string name="floating_ram_bubble">फ्लोटिंग रैम बबल</string>
+    <string name="floating_ram_bubble_desc">अन्य ऐप्स के ऊपर रीयल-टाइम रैम मॉनिटर</string>
+    <string name="fast_animations">तेज़ एनिमेशन</string>
+    <string name="fast_animations_desc">UI ट्रांज़िशन को तेज़ करें (WRITE_SECURE_SETTINGS आवश्यक)</string>
+    <string name="force_hw_accel">हार्डवेयर त्वरण बलपूर्वक लागू करें</string>
+    <string name="force_hw_accel_desc">सभी ऐप्स के लिए GPU रेंडरिंग बलपूर्वक लागू करें (WRITE_SECURE_SETTINGS आवश्यक)</string>
+    <string name="developer_options">डेवलपर विकल्प</string>
+    <string name="developer_options_desc">सिस्टम-स्तरीय डेवलपर सेटिंग तक पहुंचें</string>
+    <string name="troubleshooting">समस्या निवारण</string>
+    <string name="troubleshooting_desc">यदि ऐप्स बंद नहीं हो रहे हैं या अनुकूलन धीमा महसूस हो रहा है, तो नीचे दिए गए टूल का उपयोग करें।</string>
+    <string name="refresh_engine_state">इंजन स्थिति ताज़ा करें</string>
+    <string name="battery_optimization_disabled">बैटरी अनुकूलन: अक्षम</string>
+    <string name="disable_battery_limits">बैटरी सीमाएं अक्षम करें</string>
+    <string name="manage_permissions">अनुमतियाँ प्रबंधित करें</string>
+    <string name="technical_audit">तकनीकी ऑडिट</string>
+    <string name="permission_hub">अनुमति हब</string>
+    <string name="permission_hub_desc">सिस्टम विशेषाधिकारों का ऑडिट करें और ऑटो-अनुदान दें</string>
+    <string name="app_info">ऐप जानकारी</string>
+    <string name="version">संस्करण</string>
+    <string name="build">बिल्ड</string>
+    <string name="developed_by">THE BLACK SHEEP द्वारा विकसित</string>
+
+    <!-- Optimization Tasks -->
+    <string name="ram_boost">रैम बूस्ट</string>
+    <string name="ram_boost_desc">बैकग्राउंड कैश प्रक्रियाओं को साफ करने के लिए मेमोरी प्रेशर इंजेक्ट करें।</string>
+    <string name="app_hibernation">ऐप हाइबरनेशन</string>
+    <string name="app_hibernation_desc">सभी चयनित अनुप्रयोगों के लिए डीप फोर्स-स्टॉप।</string>
+    <string name="cache_purge">कैश साफ़ करें</string>
+    <string name="cache_purge_desc">स्टोरेज-आधारित रैम को पुनर्प्राप्त करने के लिए सभी पैकेज कैश को फोर्स ट्रिम करें।</string>
+    <string name="ram_refresh">रैम रिफ्रेश</string>
+    <string name="ram_refresh_desc">बैकग्राउंड सेवाओं से मेमोरी पुनः प्राप्त करने के लिए सिस्टम को प्रेरित करें।</string>
+    <string name="secure_settings_tweak">सुरक्षित सेटिंग सुधार</string>
+    <string name="secure_settings_tweak_desc">आक्रामक बैकग्राउंड प्रबंधन के लिए सिस्टम मापदंडों का अनुकूलन।</string>
+    <string name="kernel_optimization">कर्नेल अनुकूलन</string>
+    <string name="kernel_optimization_desc">हार्डवेयर-स्तरीय रीसेट के लिए पेजकैश और इनोड्स हटाना।</string>
+
+    <!-- App Locker -->
+    <string name="app_locker_title">ऐप लॉकर</string>
+    <string name="enable_locker">लॉकर सक्षम करें</string>
+    <string name="secure_apps_pin">पिन के साथ ऐप्स सुरक्षित करें</string>
+    <string name="set_locker_pin">लॉकर पिन सेट करें</string>
+    <string name="enter_pin_desc">अपने ऐप्स को सुरक्षित करने के लिए 4-अंकीय संख्यात्मक पिन दर्ज करें।</string>
+    <string name="pin">पिन</string>
+    <string name="set_pin">पिन सेट करें</string>
+    <string name="change_pin">पिन बदलें</string>
+    <string name="search_apps_to_lock">लॉक करने के लिए ऐप्स खोजें…</string>
+
+    <!-- Diagnostics Screen -->
+    <string name="diagnostics_title">सिस्टम डायग्नोस्टिक्स</string>
+    <string name="live_utilization">लाइव उपयोग</string>
+    <string name="cpu_load">सीपीयू लोड</string>
+    <string name="gpu_load">जीपीयू लोड</string>
+    <string name="ram_used">रैम प्रयुक्त</string>
+    <string name="current_fps">वर्तमान एफपीएस</string>
+    <string name="processing_power">प्रसंस्करण शक्ति</string>
+    <string name="cpu_hardware">सीपीयू हार्डवेयर</string>
+    <string name="core_count">कोर संख्या</string>
+    <string name="ram_capacity">रैम क्षमता</string>
+    <string name="internal_storage">आंतरिक संग्रहण</string>
+    <string name="storage_used">प्रयुक्त: %1$s</string>
+    <string name="storage_total">कुल: %1$s</string>
+    <string name="battery_health">बैटरी स्वास्थ्य</string>
+    <string name="current_level">वर्तमान स्तर</string>
+    <string name="temperature">तापमान</string>
+    <string name="health_status">स्वास्थ्य स्थिति</string>
+    <string name="system_software">सिस्टम सॉफ़्टवेयर</string>
+    <string name="security">सुरक्षा</string>
+
+    <!-- Hardware Testing -->
+
+    <!-- Junk Cleaner -->
+    <string name="junk_cleaner">जंक क्लीनर</string>
+    <string name="total_junk_detected">कुल पता लगाया गया जंक</string>
+    <string name="junk_clean_desc">पढ़ने/लिखने की गति में सुधार के लिए संग्रहण साफ़ करें</string>
+    <string name="junk_deep_scan_desc">ऐप फ़ोल्डरों के बाहर जंक खोजने के लिए डीप स्टोरेज स्कैन के लिए \'सभी फ़ाइल पहुंच\' की आवश्यकता होती है।</string>
+    <string name="searching_junk">जंक फ़ाइलों की खोज की जा रही है…</string>
+    <string name="storage_clean">स्टोरेज साफ है</string>
+    <string name="purge_junk">जंक साफ़ करें</string>
+    <string name="purging">साफ़ किया जा रहा है…</string>
+    <string name="fstrim">हार्डवेयर स्टोरेज ट्रिम (FSTRIM)</string>
+
+    <!-- System Tools -->
+    <string name="advanced_system_tools">उन्नत सिस्टम टूल्स</string>
+    <string name="monitoring">निगरानी</string>
+    <string name="task_manager">टास्क मैनेजर</string>
+    <string name="task_manager_desc">चल रही प्रक्रियाओं और OOM स्कोर को प्रबंधित करें</string>
+    <string name="screen_time">स्क्रीन समय</string>
+    <string name="screen_time_desc">ऐप उपयोग और डिजिटल कल्याण को ट्रैक करें</string>
+    <string name="network_connectivity">नेटवर्क और कनेक्टिविटी</string>
+    <string name="ping_utility">पिंग उपयोगिता</string>
+    <string name="ping_utility_desc">नेटवर्क विलंबता और स्थिरता का परीक्षण करें</string>
+    <string name="usb_utilities">USB उपयोगिताएँ</string>
+    <string name="usb_utilities_desc">USB टेदरिंग और फ़ाइल स्थानांतरण प्रबंधित करें</string>
+    <!-- Freezer -->
+    <string name="app_freezer">ऐप फ्रीज़र</string>
+    <string name="freeze_all">सभी फ्रीज करें</string>
+    <string name="unfreeze_all">सभी अनफ्रीज करें</string>
+    <string name="no_apps_found">कोई ऐप नहीं मिला</string>
+    <string name="frozen_hibernated">फ्रोजन और हाइबरनेटेड</string>
+    <string name="active_background">पृष्ठभूमि में सक्रिय</string>
+    <string name="freeze_desc">ऐप फ्रीजिंग के लिए इंजन या रूट की आवश्यकता होती है। कृपया सेटिंग में एक सक्षम करें।</string>
+
+    <!-- Game Booster -->
+    <string name="game_booster_pro">GAME BOOSTER PRO</string>
+    <string name="hardware_tweaks">हार्डवेयर ट्वीक्स</string>
+    <string name="installed_games">इंस्टॉल किए गए गेम</string>
+    <string name="add_game">गेम जोड़ें</string>
+    <string name="no_games_detected">कोई गेम नहीं मिला। अनुकूलित करने के लिए उन्हें मैन्युअल रूप से लॉन्च करें।</string>
+    <string name="boost">बूस्ट</string>
+    <string name="launch">लॉन्च</string>
+    <string name="preparing_game">गेम तैयार किया जा रहा है</string>
+
+    <!-- Overlay / Dialogs -->
+    <string name="system_optimization">सिस्टम अनुकूलन</string>
+    <string name="cpu_cooling">सीपीयू कूलिंग</string>
+    <string name="do_not_close">निष्पादन के दौरान ऐप बंद न करें</string>
+    <string name="hibernate_clean">हाइबरनेट और साफ़ करें</string>
+    <string name="purge_caches">कैश साफ़ करें</string>
+    <string name="cleanup_confirm_title">सफाई की पुष्टि करें</string>
+    <string name="optimization_strength">अनुकूलन शक्ति</string>
+    <string name="optimization_tasks">अनुकूलन कार्य</string>
+    <string name="boost_mode">मोड: %1$s</string>
+    <string name="add_game_as_game">ऐप को गेम के रूप में जोड़ें</string>
+    <string name="optimizing_resources">%1$s के लिए सिस्टम संसाधनों को अनुकूलित किया जा रहा है…</string>
+    <string name="hibernating_background_apps">बैकग्राउंड ऐप्स को हाइबरनेट किया जा रहा है</string>
+    <string name="locking_high_priority_ram">उच्च-प्राथमिकता रैम लॉक की जा रही है</string>
+    <string name="applying_gpu_mode">GPU प्रदर्शन मोड लागू किया जा रहा है</string>
+    <string name="disabled_apps">अक्षम ऐप</string>
+    <string name="disabled_apps_desc">ये ऐप्स वर्तमान में अक्षम हैं और आपके सिस्टम ऐप ड्रावर में दिखाई नहीं देंगे। आप उन्हें यहां फिर से सक्षम कर सकते हैं।</string>
+    <string name="no_disabled_apps_found">कोई अक्षम ऐप नहीं मिला</string>
+    <string name="shield_whitelist">शील्ड (श्वेतसूची)</string>
+    <string name="shield_desc">सफाई और अनुकूलन प्रक्रियाओं के दौरान इस सूची के ऐप्स को अनदेखा कर दिया जाएगा।</string>
+    <string name="no_apps_protected">कोई ऐप सुरक्षित नहीं है</string>
+
+    <string name="core_count_val">%1$d कोर्स</string>
+    <string name="optimize_runtime">रनटाइम ऑप्टिमाइज़ करें</string>
+    <string name="initializing">प्रारंभ किया जा रहा है…</string>
+    <string name="no_active_connections">कोई सक्रिय टीसीपी कनेक्शन नहीं मिला।</string>
+    <string name="local_val">स्थानीय: %1$s</string>
+    <string name="remote_val">रिमोट: %1$s</string>
+    <string name="apps_with_permission">इस अनुमति वाले ऐप्स:</string>
+    <string name="select_permission_desc">अनुमति प्राप्त ऐप्स देखने के लिए एक अनुमति चुनें</string>
+    <string name="apps_have_permission">%1$d ऐप्स के पास यह अनुमति है</string>
+    <string name="system_resource_load">सिस्टम संसाधन लोड</string>
+    <string name="ram_load">रैम लोड</string>
+    <string name="network_latency">नेटवर्क विलंबता</string>
+    <string name="ms_val">%1$d ms</string>
+    <string name="rtt_desc">Google DNS (8.8.8.8) तक RTT</string>
+    <string name="screen_time_title">स्क्रीन समय (पिछले 24 घंटे)</string>
+    <string name="no_usage_data">कोई उपयोग डेटा उपलब्ध नहीं है या अनुमति अस्वीकृत है</string>
+
+    <!-- Battery Health -->
+    <string name="health_good">अच्छा</string>
+    <string name="health_overheat">अत्यधिक गर्म</string>
+    <string name="health_dead">खराब</string>
+    <string name="health_over_voltage">ओवर वोल्टेज</string>
+    <string name="health_unknown">अज्ञात</string>
+
+    <!-- CPU -->
+    <string name="cpu_unknown">अज्ञात</string>
+
+    <!-- Toasts -->
+    <string name="permissions_granted">सभी आवश्यक अनुमतियां दी गईं</string>
+    <string name="requires_engine_root">ऑटो-अनुदान के लिए इंजन या रूट की आवश्यकता है</string>
+    <string name="engine_refreshed">इंजन स्थिति ताज़ा की गई</string>
+
+    <!-- App Usage -->
+    <string name="app_memory_usage">ऐप मेमोरी उपयोग</string>
+    <!-- Optimization Modes -->
+    <string name="standard">मानक</string>
+    <string name="active">सक्रिय</string>
+    <string name="system">सिस्टम</string>
+    <string name="privileged">विशेषाधिकार प्राप्त</string>
+    <string name="shizuku">Shizuku</string>
+    <string name="service_running">सेवा चल रही है</string>
+    <string name="tap_to_grant">अनुमति देने के लिए टैप करें</string>
+    <string name="not_connected">जुड़ा नहीं है</string>
+    <string name="root">रूट</string>
+    <string name="kernel_access">कर्नेल एक्सेस</string>
+    <string name="not_rooted">रूट नहीं किया गया</string>
+    <string name="system_mode_hint">फोर्स-स्टॉप और कैश साफ़ करने के लिए विशेषाधिकार प्राप्त सिस्टम अनुमतियों का उपयोग करना।</string>
+    <string name="shizuku_grant_hint">अनुमति देने के लिए फिर से टैप करें।</string>
+    <string name="shizuku_not_running">इंजन नहीं चल रहा है — सेटअप ऐप शुरू करने के लिए टैप करें।</string>
+    <string name="shizuku_not_found">इंजन नहीं मिला — Play Store से इंस्टॉल करने के लिए टैप करें।</string>
+    <string name="root_granted_hint">रूट एक्सेस प्रदान की गई: कर्नेल-स्तरीय अनुकूलन सक्रिय।</string>
+    <string name="no_root_hint">कोई रूट एक्सेस नहीं मिली।</string>
+
+    <string name="booster_active">बूस्टर सक्रिय</string>
+    <string name="game_booster">गेम बूस्टर</string>
+    <string name="launch_booster">GameBooster लॉन्च करें</string>
+    <string name="install_booster_desc">गेमिंग प्रदर्शन के लिए GameBooster इंस्टॉल करें</string>
+    <string name="high_perf">उच्च प्रदर्शन</string>
+    <string name="threat_count_detected">%1$d खतरे</string>
+    <string name="secure">सुरक्षित</string>
+    <string name="granted_label">अनुमत</string>
+    <string name="missing_label">अनुपलब्ध</string>
+    <!-- Operation Status -->
+    <string name="quick_boost_task">त्वरित रैम बूस्ट…</string>
+    <string name="deep_opt_task">डीप सिस्टम ऑप्टिमाइजेशन…</string>
+    <string name="initializing_task">प्रारंभ हो रहा है…</string>
+    <string name="scanning_storage_task">स्टोरेज को स्कैन किया जा रहा है…</string>
+    <string name="purging_junk_task">जंक को साफ किया जा रहा है…</string>
+    <string name="cooling_cpu_task">सीपीयू को ठंडा किया जा रहा है…</string>
+    <string name="waking_app_task">ऐप को हाइबरनेशन से जगाया जा रहा है…</string>
+    <string name="native_vm_opt_task">नेटिव और वीएम अनुकूलन…</string>
+    <string name="freezing_apps_task">ऐप्स को फ्रीज किया जा रहा है…</string>
+    <string name="unfreezing_apps_task">ऐप्स को अनफ्रीज किया जा रहा है…</string>
+    <string name="clearing_cache_task">ऐप कैश को साफ किया जा रहा है…</string>
+    <string name="uninstalling_app_task">ऐप को अनइंस्टॉल किया जा रहा है…</string>
+
+    <!-- Success Messages -->
+    <string name="quick_boost_complete">✓ त्वरित बूस्ट पूरा हुआ: %1$s मुक्त हुआ</string>
+    <string name="deep_clean_complete">✓ डीप क्लीन पूरा हुआ: %1$s मुक्त हुआ</string>
+    <string name="hardware_optimized">%1$s के लिए हार्डवेयर अनुकूलित किया गया</string>
+    <string name="app_unfrozen">✓ ऐप अनफ्रीज हो गया</string>
+    <string name="app_frozen">✓ ऐप फ्रीज हो गया</string>
+    <string name="all_apps_frozen">✓ सभी ऐप्स पहले से ही फ्रीज हैं</string>
+    <string name="apps_frozen_count">✓ %1$d/%2$d ऐप्स फ्रीज किए गए</string>
+    <string name="no_frozen_apps_found">✓ कोई फ्रोजन ऐप नहीं मिला</string>
+    <string name="apps_unfrozen_count">✓ %1$d/%2$d ऐप्स अनफ्रीज किए गए</string>
+    <string name="app_suspended">✓ ऐप निलंबित कर दिया गया</string>
+    <string name="app_unsuspended">✓ ऐप का निलंबन हटा दिया गया</string>
+    <string name="app_disabled">✓ ऐप अक्षम कर दिया गया</string>
+    <string name="app_enabled">✓ ऐप सक्षम कर दिया गया</string>
+    <string name="app_force_stopped">✓ ऐप बलपूर्वक रोक दिया गया</string>
+    <string name="bg_run_ignored">✓ बैकग्राउंड रन को अनदेखा किया गया</string>
+    <string name="bg_run_allowed">✓ बैकग्राउंड रन की अनुमति दी गई</string>
+    <string name="standby_label">✓ स्टैंडबाय: %1$s</string>
+    <string name="cache_cleared">✓ %1$s के लिए कैश साफ किया गया</string>
+    <string name="cleaned_msg">%1$s साफ़ किया गया</string>
+    <string name="cleaned_others_msg">%1$s और %2$d अन्य साफ़ किए गए</string>
+    <string name="uninstall_success">ऐप सफलतापूर्वक अनइंस्टॉल हो गया</string>
+
+    <!-- Error/Warning Messages -->
+    <string name="system_blocked_launch">सिस्टम ने लॉन्च को अवरुद्ध किया: %1$s</string>
+    <string name="launcher_not_found">%1$s के लिए लॉन्चर गतिविधि नहीं मिली</string>
+    <string name="usage_settings_error">उपयोग सेटिंग खोलने में असमर्थ</string>
+    <string name="freeze_requires_access">❌ फ्रीज के लिए Shizuku या Root की आवश्यकता है</string>
+    <string name="unfreeze_requires_access">❌ अनफ्रीज के लिए Shizuku या Root की आवश्यकता है</string>
+    <string name="op_in_progress">⏳ ऑपरेशन प्रगति पर है</string>
+    <string name="app_not_found">✗ ऐप नहीं मिला</string>
+    <string name="freeze_failed">✗ ऐप को फ्रीज करने में विफल</string>
+    <string name="unfreeze_failed">✗ ऐप को अनफ्रीज करने में विफल</string>
+    <string name="suspend_requires_pie">⚠️ निलंबन के लिए Android 9+ की आवश्यकता है</string>
+    <string name="unsuspend_requires_pie">⚠️ निलंबन हटाने के लिए Android 9+ की आवश्यकता है</string>
+    <string name="activity_not_available">गतिविधि उपलब्ध नहीं है</string>
+    <string name="force_stop_failed">✗ ऐप को बलपूर्वक रोकने में विफल</string>
+    <string name="bg_update_failed">✗ बैकग्राउंड सेटिंग अपडेट करने में विफल</string>
+    <string name="standby_update_failed">✗ स्टैंडबाय बकेट अपडेट करने में विफल</string>
+    <string name="cache_clear_failed">✗ %1$s के लिए कैश साफ करने में विफल</string>
+    <string name="uninstall_failed">अनइंस्टॉल विफल रहा</string>
+    <string name="requires_android_11">Android 11+ की आवश्यकता है</string>
+    <string name="operation_failed">ऑपरेशन विफल रहा</string>
+    <!-- Diagnostics Labels -->
+    <string name="healthy_desc">सभी हार्डवेयर सिस्टम सही ढंग से काम कर रहे हैं।</string>
+    <string name="action_required_desc">कुछ प्रणालियों को अनुकूलन की आवश्यकता है।</string>
+    <string name="vm_runtime_health">VM रनटाइम स्वास्थ्य</string>
+    <string name="dalvik_art_heap">Dalvik/ART हीप</string>
+    <string name="native_heap">नेटिव हीप</string>
+    <string name="vm_version">VM संस्करण</string>
+    <string name="cluster_freq_hub">क्लस्टर फ़्रीक्वेंसी हब</string>
+    <string name="core_val">कोर %1$d</string>
+    <string name="kernel_ram_profile">कर्नेल रैम प्रोफाइल</string>
+    <string name="active_in_use">सक्रिय (उपयोग में)</string>
+    <string name="inactive_standby">निष्क्रिय (स्टैंडबाय)</string>
+    <string name="kernel_slab">कर्नेल स्लैब</string>
+    <string name="kernel_slab_desc">कर्नेल स्लैब मेमोरी में इनोड और डेंट्री जैसी कैश्ड कर्नेल ऑब्जेक्ट होते हैं। गहरा अनुकूलन इन्हें डिस्क पर फ्लश कर देगा।</string>
+    <string name="ram_arch_breakdown">रैम आर्किटेक्चर विवरण</string>
+    <string name="physical_capacity">भौतिक क्षमता</string>
+    <string name="cached_buffers">कैश्ड / बफ़र्स</string>
+    <string name="reclaimable_slab">रिक्लेमेबल स्लैब</string>
+    <string name="zram_swap_total">ZRAM / स्वैप कुल</string>
+    <string name="zram_swap_free">ZRAM / स्वैप फ्री</string>
+    <string name="cached_memory_desc">जरूरत पड़ने पर कैश्ड मेमोरी ऐप्स के लिए तुरंत उपलब्ध होती है। उच्च कैश्ड मान स्वस्थ होते हैं क्योंकि वे ऐप लॉन्च को तेज़ करते हैं।</string>
+    <string name="realtime_network">रीयल-टाइम नेटवर्क</string>
+    <string name="download">डाउनलोड</string>
+    <string name="upload">अपलोड</string>
+    <string name="optimization_result_banner">%1$s अनुकूलित: %2$s · %3$s</string>
+
+    <string name="app_drainers_desc">इन ऐप्स की बैकग्राउंड गतिविधि उनके फोरग्राउंड उपयोग की तुलना में अधिक है। इन्हें हाइबरनेट करने से बैटरी लाइफ काफी बढ़ जाएगी।</string>
+    <string name="selection_label">चयन</string>
+    <string name="core_label">कोर</string>
+    <string name="auto_clean_result">ऑटो-क्लीन परिणाम</string>
+    <string name="auto_clean_result_desc">बैकग्राउंड क्लीनअप के बाद अधिसूचना दिखाएं</string>
+    <string name="auto_kill_background">ऑटो-किल बैकग्राउंड</string>
+    <string name="auto_kill_background_desc">बैकग्राउंड में 1 मिनट के बाद ऐप्स को फोर्स-स्टॉप करें</string>
+    <string name="auto_kill_inactive">ऑटो-किल निष्क्रिय</string>
+    <string name="auto_kill_inactive_desc">5 मिनट की निष्क्रियता के बाद ऐप्स को फोर्स-स्टॉप करें</string>
+</resources>

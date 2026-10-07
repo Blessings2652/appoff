@@ -1,0 +1,370 @@
+<resources>
+    <string name="app_name">AppOff</string>
+    <string name="notif_channel_name">AppOff Monitor</string>
+    <string name="notif_channel_desc">Kuona RAM yotsala ndi kuyeretsa mwamsanga</string>
+
+    <string name="system_monitor">OYANG\'ANIRA KACHITIDWE</string>
+    <string name="ram_cleaner">APPOFF</string>
+    <string name="app_drainers">MAPULOGALAMU ODYA BATTERY</string>
+    <string name="running_processes">ZIKUCHITIKA PANOPA</string>
+    <string name="settings">Zokonda</string>
+
+    <!-- Customization -->
+    <string name="font_size">Kukula kwa Malemba</string>
+    <string name="icon_style">Maonekedwe a Zizindikiro</string>
+    <string name="icon_rounded">Ozungulira</string>
+    <string name="icon_sharp">Akuthwa</string>
+    <string name="icon_cyberpunk">Cyberpunk</string>
+
+    <!-- Developer Power Tools -->
+    <string name="developer_power_tools">Zida za Opanga</string>
+    <string name="wireless_debugging">Kuthetsa Mavuto Opanda Waya</string>
+    <string name="enable_dev_options">Yambitsani Zokonda za Opanga</string>
+    <string name="debug_desc">Sinthani zokonda zozama za chipangizo chanu</string>
+
+    <!-- Language -->
+    <string name="app_language">Chilankhulo cha Pulogalamu</string>
+
+    <!-- Common -->
+    <string name="back">Bwererani</string>
+    <string name="done">ZATHEKA</string>
+    <string name="ok">CHABWINO</string>
+    <string name="cancel">LETSANI</string>
+    <string name="close">TSEKANI</string>
+    <string name="save">SUNGANI</string>
+    <string name="apply">GWIRITSANI NTCHITO</string>
+    <string name="got_it">NDAMVETSA</string>
+    <string name="searching">Kufufuza…</string>
+    <string name="select_all">SANKHANI ZONSE</string>
+    <string name="deselect_all">SANKHULANI ZONSE</string>
+    <string name="show_system">ONETSANI KACHITIDWE</string>
+    <string name="hide_system">BISANI KACHITIDWE</string>
+    <string name="search_processes">Fufuzani zomwe zikuchitika…</string>
+    <string name="search_apps">Fufuzani mapulogalamu…</string>
+    <string name="permission_required">Chilolezo Chikufunika</string>
+    <string name="grant">PEREKA</string>
+    <string name="open_settings">TSEKULANI ZOKONDA</string>
+    <string name="requires_root_hibernate">Pamafunika Root kapena Deep Hibernate</string>
+
+    <!-- Main Screen -->
+    <string name="system_action_required">ZOCHITIKA PA KACHITIDWE ZIKUFUNIKA</string>
+    <string name="system_health_optimal">KACHITIDWE KALI BWINO: KWAMBIRI</string>
+    <string name="calibrating_system">KUKONZA KACHITIDWE…</string>
+    <string name="critical_performance">KACHITIDWE KAFOOKA KWAMBIRI</string>
+    <string name="heavy_system_load">KATUNDU WAMBIRI PA KACHITIDWE</string>
+    <string name="clean_system">YERETSANI KACHITIDWE</string>
+    <string name="system_cleaner">Kuyeretsa Kachitidwe</string>
+    <string name="ram_recovered">RAM yobwezeretsedwa: %1$s</string>
+    <string name="processes_cleared">Zochitika %1$d zafufutidwa</string>
+    <string name="apps_selected_count">Mapulogalamu %1$d osankhidwa</string>
+    <string name="running_processes_desc">Khudzani pulogalamu kuti musankhe kukonzedwa. Gwiritsani ntchito (⋮) pazochita zozama monga Kukakamiza Kuyima kapena Kuyimitsa Kwakanthawi.</string>
+
+    <!-- Settings Screen -->
+    <string name="system_configuration">Kukonzekera kwa Kachitidwe</string>
+    <string name="optimization_mode">Njira Yokonzera</string>
+    <string name="appearance">Maonekedwe</string>
+    <string name="app_theme">Mutu wa Pulogalamu</string>
+    <string name="theme_light">Kuwala</string>
+    <string name="theme_dark">Mdima</string>
+    <string name="theme_black">Wakuda</string>
+    <string name="theme_system">Dongosolo</string>
+    <string name="accent_color">Mtundu Waukulu</string>
+    <string name="card_color">Mtundu wa Khadi</string>
+    <string name="haptic_feedback">Kunjenjemera pa Kukhudza</string>
+    <string name="haptic_feedback_desc">Kunjenjemera kochepa ntchito ikatha.</string>
+    <string name="feedback_strength">Mphamvu ya Kunjenjemera</string>
+    <string name="low">YOSAFOOKA</string>
+    <string name="high">YAMPHAMVU</string>
+    <string name="automation">Zochita Zokha</string>
+    <string name="system_tweaks">Kusintha kwa Kachitidwe</string>
+    <string name="turbo_mode">Turbo Mode</string>
+    <string name="turbo_mode_desc">Kuyeretsa mwamphamvu kwa zipangizo zomwe zili ndi memory yochepa</string>
+    <string name="floating_ram_bubble">Chizindikiro cha RAM Choyandama</string>
+    <string name="floating_ram_bubble_desc">Kuona RAM panthawi yeniyeni pamwamba pa mapulogalamu ena</string>
+    <string name="fast_animations">Zithunzi Zoyenda Msanga</string>
+    <string name="fast_animations_desc">Kuthamangitsa kusintha kwa maonekedwe (pamafunika WRITE_SECURE_SETTINGS)</string>
+    <string name="force_hw_accel">Kakamizani Hardware Acceleration</string>
+    <string name="force_hw_accel_desc">Kakamizani GPU kusonyeza zithunzi zamapulogalamu onse (pamafunika WRITE_SECURE_SETTINGS)</string>
+    <string name="developer_options">Zokonda za Opanga</string>
+    <string name="developer_options_desc">Pezani zokonda za opanga pa kachitidwe</string>
+    <string name="troubleshooting">Kuthetsa Mavuto</string>
+    <string name="troubleshooting_desc">Ngati mapulogalamu sakuyima kapena kukonza kukuoneka kochedwa, gwiritsani ntchito zida zili m\'munsizi.</string>
+    <string name="refresh_engine_state">Yambitsaninso Mkhalidwe wa Engine</string>
+    <string name="battery_optimization_disabled">Kukonza Battery: Kwayimitsidwa</string>
+    <string name="disable_battery_limits">Letsani Malire a Battery</string>
+    <string name="manage_permissions">Yendetsani Zilolezo</string>
+    <string name="technical_audit">Kuyang\'anira Zaukadaulo</string>
+    <string name="permission_hub">Malo a Zilolezo</string>
+    <string name="permission_hub_desc">Yang\'anirani zilolezo za kachitidwe &amp; perekani zokha</string>
+    <string name="app_info">Zambiri za Pulogalamu</string>
+    <string name="version">Mtundu</string>
+    <string name="build">Build</string>
+    <string name="developed_by">YAPANGIDWA NDI THE BLACK SHEEP</string>
+
+    <!-- Optimization Tasks -->
+    <string name="ram_boost">RAM Boost</string>
+    <string name="ram_boost_desc">Kakamizani memory kuti ifufute zinthu zosafunika.</string>
+    <string name="app_hibernation">Kugonetsa Mapulogalamu</string>
+    <string name="app_hibernation_desc">Kuyimitsa mwamphamvu mapulogalamu onse osankhidwa.</string>
+    <string name="cache_purge">Kufufuta Cache</string>
+    <string name="cache_purge_desc">Kakamizani kufufuta cache ya mapulogalamu kuti mupeze RAM.</string>
+    <string name="ram_refresh">RAM Refresh</string>
+    <string name="ram_refresh_desc">Kukumbutsa kachitidwe kuti katenge memory kuchokera ku mapulogalamu akugwira ntchito m\'mbuyo.</string>
+    <string name="secure_settings_tweak">Kusintha Zokonda Zotetezedwa</string>
+    <string name="secure_settings_tweak_desc">Kukonza zokonda za kachitidwe kuti kayendetsedwe bwino.</string>
+    <string name="kernel_optimization">Kukonza Kernel</string>
+    <string name="kernel_optimization_desc">Kuchotsa zinthu zosafunika pa hardware kuti iyambe bwino.</string>
+
+    <!-- App Locker -->
+    <string name="app_locker_title">APP LOCKER</string>
+    <string name="enable_locker">Yambitsani Locker</string>
+    <string name="secure_apps_pin">Tetezani mapulogalamu ndi PIN</string>
+    <string name="set_locker_pin">Khazikitsani PIN ya Locker</string>
+    <string name="enter_pin_desc">Lowetsani PIN ya manambala 4 kuti muteteze mapulogalamu anu.</string>
+    <string name="pin">PIN</string>
+    <string name="set_pin">KHAZIKITSANI PIN</string>
+    <string name="change_pin">SINTHANI PIN</string>
+    <string name="search_apps_to_lock">Fufuzani mapulogalamu oti mutseke...</string>
+
+    <!-- Diagnostics Screen -->
+    <string name="diagnostics_title">KUPIMA KACHITIDWE</string>
+    <string name="live_utilization">KAGWIRITSEDWE NTCHITO PANOPA</string>
+    <string name="cpu_load">CPU Load</string>
+    <string name="gpu_load">GPU Load</string>
+    <string name="ram_used">RAM Yomwe Ikugwiritsidwa Ntchito</string>
+    <string name="current_fps">FPS ya Panopa</string>
+    <string name="processing_power">Mphamvu Yokonzera Zinthu</string>
+    <string name="cpu_hardware">CPU Hardware</string>
+    <string name="core_count">Chiwerengero cha Cores</string>
+    <string name="ram_capacity">Kuchuluka kwa RAM</string>
+    <string name="internal_storage">KUSUNGA ZINTHU MKATI</string>
+    <string name="storage_used">Yomwe yagwiritsidwa ntchito: %1$s</string>
+    <string name="storage_total">Zonse: %1$s</string>
+    <string name="battery_health">Mkhalidwe wa Battery</string>
+    <string name="current_level">Mulingo wa Panopa</string>
+    <string name="temperature">Kutentha</string>
+    <string name="health_status">Mkhalidwe</string>
+    <string name="system_software">Software ya Kachitidwe</string>
+    <string name="security">Chitetezo</string>
+
+    <!-- Hardware Testing -->
+
+    <!-- Junk Cleaner -->
+    <string name="junk_cleaner">Choyeretsa Zinyalala</string>
+    <string name="total_junk_detected">ZINYALALA ZONSE ZOMWE ZAPEZEKA</string>
+    <string name="junk_clean_desc">Yeretsani kapezedwe ka zinthu kuti chiziyenda msanga</string>
+    <string name="junk_deep_scan_desc">Kufufuza zozama kufuna chilolezo cha \'All Files Access\' kuti apeze zinyalala kunja kwa mafoda a mapulogalamu.</string>
+    <string name="searching_junk">Kufufuza mafayilo a zinyalala…</string>
+    <string name="storage_clean">Pali poyeretsa</string>
+    <string name="purge_junk">FUFUTANI ZINYALALA</string>
+    <string name="purging">KUKONZA…</string>
+    <string name="fstrim">HARDWARE STORAGE TRIM (FSTRIM)</string>
+
+    <!-- System Tools -->
+    <string name="advanced_system_tools">ZIDA ZAPAMWAMBA ZA KACHITIDWE</string>
+    <string name="monitoring">Kuyang\'anira</string>
+    <string name="task_manager">Task Manager</string>
+    <string name="task_manager_desc">Yendetsani zochitika ndi ma OOM scores</string>
+    <string name="screen_time">Screen Time</string>
+    <string name="screen_time_desc">Onetsetsani momwe mukugwiritsira ntchito mapulogalamu</string>
+    <string name="network_connectivity">Network &amp; Connectivity</string>
+    <string name="ping_utility">Ping Utility</string>
+    <string name="ping_utility_desc">Yesani liwiro la network</string>
+    <string name="usb_utilities">Zida za USB</string>
+    <string name="usb_utilities_desc">Yendetsani USB tethering ndi kutumiza mafayilo</string>
+    <!-- Freezer -->
+    <string name="app_freezer">App Freezer</string>
+    <string name="freeze_all">Gonetsani Zonse</string>
+    <string name="unfreeze_all">Utsani Zonse</string>
+    <string name="no_apps_found">Palibe mapulogalamu omwe apezeka</string>
+    <string name="frozen_hibernated">ZOGONETSEDWA &amp; KUSUNGIDWA</string>
+    <string name="active_background">ZIKUGWIRA NTCHITO M\'MBUYO</string>
+    <string name="freeze_desc">Kugonetsa mapulogalamu kufuna Engine kapena Root. Chonde yambitsani imodzi mu Zokonda.</string>
+
+    <!-- Game Booster -->
+    <string name="game_booster_pro">GAME BOOSTER PRO</string>
+    <string name="hardware_tweaks">KUSINTHA KWA HARDWARE</string>
+    <string name="installed_games">MASEREMU OYIKIDWA</string>
+    <string name="add_game">ONJEZANI MASEREMU</string>
+    <string name="no_games_detected">Palibe maseremu omwe apezeka. Yambitsani pamanja kuti akonzedwe.</string>
+    <string name="boost">KONZANI</string>
+    <string name="launch">YAMBITTSANI</string>
+    <string name="preparing_game">Kukonzekera Maseremu</string>
+
+    <!-- Overlay / Dialogs -->
+    <string name="system_optimization">KUKONZA KACHITIDWE</string>
+    <string name="cpu_cooling">KUZIZIRITSA CPU</string>
+    <string name="do_not_close">Musatseke pulogalamu ikugwira ntchito</string>
+    <string name="hibernate_clean">GONETSANI &amp; YERETSANI</string>
+    <string name="purge_caches">FUFUTANI CACHE</string>
+    <string name="cleanup_confirm_title">Tsimikizani Kuyeretsa</string>
+    <string name="optimization_strength">Mphamvu Yokonzera</string>
+    <string name="optimization_tasks">Ntchito Zokonzera</string>
+    <string name="boost_mode">Mode: %1$s</string>
+    <string name="add_game_as_game">Onjezani Pulogalamu monga Maseremu</string>
+    <string name="optimizing_resources">Kukonza kachitidwe chifukwa cha %1$s…</string>
+    <string name="hibernating_background_apps">Kugonetsa mapulogalamu akumbuyo</string>
+    <string name="locking_high_priority_ram">Kutseka RAM yofunika kwambiri</string>
+    <string name="applying_gpu_mode">Gwiritsani ntchito njira ya GPU</string>
+    <string name="disabled_apps">Mapulogalamu Oletsedwa</string>
+    <string name="disabled_apps_desc">Mapulogalamuwa ndi oletsedwa ndipo saonekera m\'ndandanda ya mapulogalamu anu. Mutha kuwayambitsanso pano.</string>
+    <string name="no_disabled_apps_found">Palibe mapulogalamu oletsedwa omwe apezeka</string>
+    <string name="shield_whitelist">Shield (Whitelist)</string>
+    <string name="shield_desc">Mapulogalamu ali pandandandayi anyalanyazidwa pakukonza ndi kuyeretsa.</string>
+    <string name="no_apps_protected">Palibe mapulogalamu otetezedwa</string>
+
+    <string name="core_count_val">Cores %1$d</string>
+    <string name="optimize_runtime">KONZANI RUNTIME</string>
+    <string name="initializing">Kuyamba…</string>
+    <string name="no_active_connections">Palibe maulumikizidwe a TCP omwe apezeka.</string>
+    <string name="local_val">Local: %1$s</string>
+    <string name="remote_val">Remote: %1$s</string>
+    <string name="apps_with_permission">Mapulogalamu omwe ali ndi chilolezochi:</string>
+    <string name="select_permission_desc">Sankhani chilolezo kuti muone mapulogalamu omwe anapatsidwa</string>
+    <string name="apps_have_permission">Mapulogalamu %1$d ali ndi chilolezochi</string>
+    <string name="system_resource_load">Katundu wa Kachitidwe</string>
+    <string name="ram_load">Katundu wa RAM</string>
+    <string name="network_latency">Network Latency</string>
+    <string name="ms_val">%1$d ms</string>
+    <string name="rtt_desc">RTT kupita ku Google DNS (8.8.8.8)</string>
+    <string name="screen_time_title">Screen Time (Maola 24 apitawo)</string>
+    <string name="no_usage_data">Palibe zambiri zogwiritsira ntchito kapena chilolezo chakanidwa</string>
+
+    <!-- Battery Health -->
+    <string name="health_good">Bwino</string>
+    <string name="health_overheat">Kutentha Kwambiri</string>
+    <string name="health_dead">Kufa</string>
+    <string name="health_over_voltage">Over Voltage</string>
+    <string name="health_unknown">Osadziwika</string>
+
+    <!-- CPU -->
+    <string name="cpu_unknown">Osadziwika</string>
+
+    <!-- Toasts -->
+    <string name="permissions_granted">Zilolezo zonse zofunika zaperekedwa</string>
+    <string name="requires_engine_root">Pamafunika Engine kapena Root kuti zilolezo ziperekedwe zokha</string>
+    <string name="engine_refreshed">Engine yatsitsimutsidwa</string>
+
+    <!-- App Usage -->
+    <string name="app_memory_usage">KAGWIRITSEDWE NTCHITO KA MEMORY</string>
+    <!-- Optimization Modes -->
+    <string name="standard">Standard</string>
+    <string name="active">Yogwira</string>
+    <string name="system">Kachitidwe</string>
+    <string name="privileged">Yapamwamba</string>
+    <string name="shizuku">Shizuku</string>
+    <string name="service_running">Ntchito ikugwira</string>
+    <string name="tap_to_grant">Khudzani kuti mupereke</string>
+    <string name="not_connected">Osalumikizidwa</string>
+    <string name="root">Root</string>
+    <string name="kernel_access">Kulowa mu Kernel</string>
+    <string name="not_rooted">Opanda Root</string>
+    <string name="system_mode_hint">Kugwiritsa ntchito zilolezo zapamwamba za kachitidwe kuyimitsa mapulogalamu ndi kufufuta cache.</string>
+    <string name="shizuku_grant_hint">Khudzani kachiwiri kuti mupereke chilolezo.</string>
+    <string name="shizuku_not_running">Engine sakugwira ntchito — khudzani kuti muyambe pulogalamu yokonzera.</string>
+    <string name="shizuku_not_found">Engine sanapezeke — khudzani kuti muyike kuchokera ku Play Store.</string>
+    <string name="root_granted_hint">CHILOLEZO CHA ROOT CHAPEREKEDWA: Kukonza kwa pa Kernel kuli pa ntchito.</string>
+    <string name="no_root_hint">Palibe chilolezo cha root chomwe chapezeka.</string>
+
+    <string name="booster_active">BOOSTER YOYAMBITSA</string>
+    <string name="game_booster">GAME BOOSTER</string>
+    <string name="launch_booster">Yambitsani GameBooster</string>
+    <string name="install_booster_desc">Ikani GameBooster kuti musewere bwino</string>
+    <string name="high_perf">Magwiridwe A bwino</string>
+    <string name="threat_count_detected">ZOOPSYA %1$d</string>
+    <string name="secure">OTETEZEKA</string>
+    <string name="granted_label">ZOLOREDWA</string>
+    <string name="missing_label">ZOSOWEKA</string>
+    <!-- Operation Status -->
+    <string name="quick_boost_task">Kukonza RAM Msanga…</string>
+    <string name="deep_opt_task">Kukonza Kachitidwe Kozama…</string>
+    <string name="initializing_task">Kuyamba…</string>
+    <string name="scanning_storage_task">Kufufuza malo osungira…</string>
+    <string name="purging_junk_task">Kuchotsa zinyalala…</string>
+    <string name="cooling_cpu_task">Kuziziritsa CPU…</string>
+    <string name="waking_app_task">Kuutsa pulogalamu m\'tulo…</string>
+    <string name="native_vm_opt_task">Kukonza Native ndi VM…</string>
+    <string name="freezing_apps_task">Kugonetsa mapulogalamu…</string>
+    <string name="unfreezing_apps_task">Kuutsa mapulogalamu…</string>
+    <string name="clearing_cache_task">Kufufuta cache ya mapulogalamu…</string>
+    <string name="uninstalling_app_task">Kuchotsa pulogalamu…</string>
+
+    <!-- Success Messages -->
+    <string name="quick_boost_complete">✓ Kukonza msanga kwatheka: %1$s yamasulidwa</string>
+    <string name="deep_clean_complete">✓ Kuyeretsa kozama kwatheka: %1$s yamasulidwa</string>
+    <string name="hardware_optimized">Hardware yakonzedwa chifukwa cha %1$s</string>
+    <string name="app_unfrozen">✓ Pulogalamu yautsidwa</string>
+    <string name="app_frozen">✓ Pulogalamu yagonetsedwa</string>
+    <string name="all_apps_frozen">✓ Mapulogalamu onse agonetsedwa kale</string>
+    <string name="apps_frozen_count">✓ Mapulogalamu %1$d/%2$d agonetsedwa</string>
+    <string name="no_frozen_apps_found">✓ Palibe mapulogalamu ogonetsedwa omwe apezeka</string>
+    <string name="apps_unfrozen_count">✓ Mapulogalamu %1$d/%2$d autsidwa</string>
+    <string name="app_suspended">✓ Pulogalamu yayimitsidwa kwakanthawi</string>
+    <string name="app_unsuspended">✓ Pulogalamu yayambiranso</string>
+    <string name="app_disabled">✓ Pulogalamu yaletsedwa</string>
+    <string name="app_enabled">✓ Pulogalamu yaloledwa</string>
+    <string name="app_force_stopped">✓ Pulogalamu yayimitsidwa mwamphamvu</string>
+    <string name="bg_run_ignored">✓ Kunyalanyaza kugwira ntchito m\'mbuyo</string>
+    <string name="bg_run_allowed">✓ Kulola kugwira ntchito m\'mbuyo</string>
+    <string name="standby_label">✓ Standby: %1$s</string>
+    <string name="cache_cleared">✓ Cache yafufutidwa chifukwa cha %1$s</string>
+    <string name="cleaned_msg">Wayeretsa %1$s</string>
+    <string name="cleaned_others_msg">Wayeretsa %1$s ndi ena %2$d</string>
+    <string name="uninstall_success">Pulogalamu yachotsedwa bwino</string>
+
+    <!-- Error/Warning Messages -->
+    <string name="system_blocked_launch">Kachitidwe kaletsa kuyamba: %1$s</string>
+    <string name="launcher_not_found">Launcher activity sanapezeke chifukwa cha %1$s</string>
+    <string name="usage_settings_error">Zolephera kutsegula zokonda zogwiritsira ntchito</string>
+    <string name="freeze_requires_access">❌ Kugonetsa kufuna Shizuku kapena Root</string>
+    <string name="unfreeze_requires_access">❌ Kuutsa kufuna Shizuku kapena Root</string>
+    <string name="op_in_progress">⏳ Ntchito ikuchitika</string>
+    <string name="app_not_found">✗ Pulogalamu sanapezeke</string>
+    <string name="freeze_failed">✗ Zolephera kugonetsa pulogalamu</string>
+    <string name="unfreeze_failed">✗ Zolephera kuutsa pulogalamu</string>
+    <string name="suspend_requires_pie">⚠️ Kuyimitsa kufuna Android 9+</string>
+    <string name="unsuspend_requires_pie">⚠️ Kuyambitsanso kufuna Android 9+</string>
+    <string name="activity_not_available">Activity sikupezeka</string>
+    <string name="force_stop_failed">✗ Zolephera kuyimitsa pulogalamu mwamphamvu</string>
+    <string name="bg_update_failed">✗ Zolephera kusintha zokonda zakumbuyo</string>
+    <string name="standby_update_failed">✗ Zolephera kusintha standby bucket</string>
+    <string name="cache_clear_failed">✗ Zolephera kufufuta cache chifukwa cha %1$s</string>
+    <string name="uninstall_failed">Kuchotsa pulogalamu kulephera</string>
+    <string name="requires_android_11">Pamafunika Android 11+</string>
+    <string name="operation_failed">Ntchito yalephera</string>
+    <!-- Diagnostics Labels -->
+    <string name="healthy_desc">Zigawo zonse za hardware zikugwira ntchito bwino.</string>
+    <string name="action_required_desc">Zigawo zina zikufunika kukonzedwa.</string>
+    <string name="vm_runtime_health">Mkhalidwe wa VM Runtime</string>
+    <string name="dalvik_art_heap">Dalvik/ART Heap</string>
+    <string name="native_heap">Native Heap</string>
+    <string name="vm_version">Mtundu wa VM</string>
+    <string name="cluster_freq_hub">Cluster Frequency Hub</string>
+    <string name="core_val">CORE %1$d</string>
+    <string name="kernel_ram_profile">Zambiri za Kernel RAM</string>
+    <string name="active_in_use">Zogwira Ntchito (Zikugwiritsidwa Ntchito)</string>
+    <string name="inactive_standby">Zosagwira Ntchito (Standby)</string>
+    <string name="kernel_slab">Kernel Slab</string>
+    <string name="kernel_slab_desc">Memory ya Kernel Slab imakhala ndi zinthu za kernel monga inodes ndi dentries. Kukonza kozama kudzazisungira pa disk.</string>
+    <string name="ram_arch_breakdown">Kagawidwe ka Architecture ya RAM</string>
+    <string name="physical_capacity">Kuchuluka kwa Hardware</string>
+    <string name="cached_buffers">Cached / Buffers</string>
+    <string name="reclaimable_slab">Slab Yobwezeretsekanso</string>
+    <string name="zram_swap_total">ZRAM / Swap Yonsery</string>
+    <string name="zram_swap_free">ZRAM / Swap Yotsala</string>
+    <string name="cached_memory_desc">Cached memory imapezeka nthawi yomweyo mapulogalamu akaifuna. Ma cached values ambiri ndi abwino chifukwa amathamangitsa kutsegula mapulogalamu.</string>
+    <string name="realtime_network">Network ya Panthawi Yeniyeni</string>
+    <string name="download">DOWNLOAD</string>
+    <string name="upload">UPLOAD</string>
+    <string name="optimization_result_banner">%1$s yakonzedwa: %2$s · %3$s</string>
+
+    <string name="app_drainers_desc">Mapulogalamu awa amagwira ntchito kwambiri kuseri kusiyana ndi momwe mumawagwiritsira ntchito. Kuwaimitsa kukulitsa kwambiri moyo wa batire.</string>
+    <string name="selection_label">KUSANKHA</string>
+    <string name="core_label">PAKATI</string>
+    <string name="auto_clean_result">Zotsatira za Kuyeretsa Zokha</string>
+    <string name="auto_clean_result_desc">Onetsani chidziwitso pambuyo poyeretsa kumbuyo</string>
+    <string name="auto_kill_background">Kupha Mapulogalamu Akumbuyo</string>
+    <string name="auto_kill_background_desc">Kakamizani kuyimitsa mapulogalamu pambuyo pa mphindi imodzi akumbuyo</string>
+    <string name="auto_kill_inactive">Kupha Mapulogalamu Osagwira Ntchito</string>
+    <string name="auto_kill_inactive_desc">Kakamizani kuyimitsa mapulogalamu pambuyo pa mphindi 5 osagwira ntchito</string>
+</resources>

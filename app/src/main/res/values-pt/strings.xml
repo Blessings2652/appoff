@@ -1,0 +1,370 @@
+<resources>
+    <string name="app_name">AppOff</string>
+    <string name="notif_channel_name">AppOff Monitor</string>
+    <string name="notif_channel_desc">Leitura de RAM livre ao vivo com uma ação de limpeza de um toque</string>
+
+    <string name="system_monitor">MONITOR DO SISTEMA</string>
+    <string name="ram_cleaner">APPOFF</string>
+    <string name="app_drainers">DRENADORES DE APP</string>
+    <string name="running_processes">PROCESSOS EM EXECUÇÃO</string>
+    <string name="settings">Configurações</string>
+
+    <!-- Customization -->
+    <string name="font_size">Tamanho da Fonte</string>
+    <string name="icon_style">Estilo do Ícone</string>
+    <string name="icon_rounded">Arredondado</string>
+    <string name="icon_sharp">Nítido</string>
+    <string name="icon_cyberpunk">Cyberpunk</string>
+
+    <!-- Developer Power Tools -->
+    <string name="developer_power_tools">Ferramentas de Desenvolvedor</string>
+    <string name="wireless_debugging">Depuração Sem Fio</string>
+    <string name="enable_dev_options">Ativar Opções de Desenvolvedor</string>
+    <string name="debug_desc">Alternar recursos de depuração em nível de sistema</string>
+
+    <!-- Language -->
+    <string name="app_language">Idioma do App</string>
+
+    <!-- Common -->
+    <string name="back">Voltar</string>
+    <string name="done">CONCLUÍDO</string>
+    <string name="ok">OK</string>
+    <string name="cancel">CANCELAR</string>
+    <string name="close">FECHAR</string>
+    <string name="save">SALVAR</string>
+    <string name="apply">APLICAR</string>
+    <string name="got_it">ENTENDI</string>
+    <string name="searching">Pesquisando…</string>
+    <string name="select_all">SELECIONAR TUDO</string>
+    <string name="deselect_all">DESELECIONAR TUDO</string>
+    <string name="show_system">MOSTRAR SISTEMA</string>
+    <string name="hide_system">OCULTAR SISTEMA</string>
+    <string name="search_processes">Pesquisar processos…</string>
+    <string name="search_apps">Pesquisar apps…</string>
+    <string name="permission_required">Permissão Necessária</string>
+    <string name="grant">CONCEDER</string>
+    <string name="open_settings">ABRIR CONFIGURAÇÕES</string>
+    <string name="requires_root_hibernate">Requer Root ou Hibernação Profunda</string>
+
+    <!-- Main Screen -->
+    <string name="system_action_required">AÇÃO DO SISTEMA NECESSÁRIA</string>
+    <string name="system_health_optimal">SAÚDE DO SISTEMA: IDEAL</string>
+    <string name="calibrating_system">CALIBRANDO SISTEMA…</string>
+    <string name="critical_performance">DESEMPENHO CRÍTICO</string>
+    <string name="heavy_system_load">CARGA PESADA DO SISTEMA</string>
+    <string name="clean_system">LIMPAR SISTEMA</string>
+    <string name="system_cleaner">Limpador de Sistema</string>
+    <string name="ram_recovered">%1$s de RAM recuperada</string>
+    <string name="processes_cleared">%1$d processos limpos</string>
+    <string name="apps_selected_count">%1$d apps selecionados</string>
+    <string name="running_processes_desc">Toque em um app para selecioná-lo para otimização. Use o menu (⋮) para ações profundas como Forçar Parada ou Suspender.</string>
+
+    <!-- Settings Screen -->
+    <string name="system_configuration">Configuração do Sistema</string>
+    <string name="optimization_mode">Modo de Otimização</string>
+    <string name="appearance">Aparência</string>
+    <string name="app_theme">Tema do App</string>
+    <string name="theme_light">Claro</string>
+    <string name="theme_dark">Escuro</string>
+    <string name="theme_black">Preto</string>
+    <string name="theme_system">Sistema</string>
+    <string name="accent_color">Cor de Destaque</string>
+    <string name="card_color">Cor do Card</string>
+    <string name="haptic_feedback">Resposta Tátil</string>
+    <string name="haptic_feedback_desc">Acionar pulso tátil ao concluir a tarefa.</string>
+    <string name="feedback_strength">Força do Feedback</string>
+    <string name="low">BAIXA</string>
+    <string name="high">ALTA</string>
+    <string name="automation">Automação</string>
+    <string name="system_tweaks">Ajustes do Sistema</string>
+    <string name="turbo_mode">Modo Turbo</string>
+    <string name="turbo_mode_desc">Limpeza agressiva em segundo plano para dispositivos com pouca memória</string>
+    <string name="floating_ram_bubble">Bolha de RAM Flutuante</string>
+    <string name="floating_ram_bubble_desc">Monitor de RAM em tempo real sobre outros apps</string>
+    <string name="fast_animations">Animações Rápidas</string>
+    <string name="fast_animations_desc">Acelerar transições de IU (requer WRITE_SECURE_SETTINGS)</string>
+    <string name="force_hw_accel">Forçar Aceleração de Hardware</string>
+    <string name="force_hw_accel_desc">Forçar renderização por GPU para todos os apps (requer WRITE_SECURE_SETTINGS)</string>
+    <string name="developer_options">Opções do Desenvolvedor</string>
+    <string name="developer_options_desc">Acessar configurações de desenvolvedor em nível de sistema</string>
+    <string name="troubleshooting">Solução de Problemas</string>
+    <string name="troubleshooting_desc">Se os apps não estiverem sendo parados ou a otimização parecer lenta, use as ferramentas abaixo.</string>
+    <string name="refresh_engine_state">Atualizar Estado do Mecanismo</string>
+    <string name="battery_optimization_disabled">Otimização de Bateria: Desativada</string>
+    <string name="disable_battery_limits">Desativar Limites de Bateria</string>
+    <string name="manage_permissions">Gerenciar Permissões</string>
+    <string name="technical_audit">Auditoria Técnica</string>
+    <string name="permission_hub">Centro de Permissões</string>
+    <string name="permission_hub_desc">Auditar privilégios do sistema e concessão automática</string>
+    <string name="app_info">Informações do App</string>
+    <string name="version">Versão</string>
+    <string name="build">Build</string>
+    <string name="developed_by">DESENVOLVIDO POR THE BLACK SHEEP</string>
+
+    <!-- Optimization Tasks -->
+    <string name="ram_boost">Impulso de RAM</string>
+    <string name="ram_boost_desc">Injetar pressão de memória para limpar processos de cache em segundo plano.</string>
+    <string name="app_hibernation">Hibernação de App</string>
+    <string name="app_hibernation_desc">Parada forçada profunda para todos os aplicativos selecionados.</string>
+    <string name="cache_purge">Limpeza de Cache</string>
+    <string name="cache_purge_desc">Forçar a limpeza de todos os caches de pacotes para recuperar RAM baseada em armazenamento.</string>
+    <string name="ram_refresh">Atualização de RAM</string>
+    <string name="ram_refresh_desc">Incitar o sistema a recuperar memória de serviços em segundo plano.</string>
+    <string name="secure_settings_tweak">Ajuste de Configurações Seguras</string>
+    <string name="secure_settings_tweak_desc">Otimização dos parâmetros do sistema para gerenciamento agressivo em segundo plano.</string>
+    <string name="kernel_optimization">Otimização do Kernel</string>
+    <string name="kernel_optimization_desc">Limpando pagecaches e inodes para reinicialização em nível de hardware.</string>
+
+    <!-- App Locker -->
+    <string name="app_locker_title">BLOQUEADOR DE APPS</string>
+    <string name="enable_locker">Ativar Bloqueador</string>
+    <string name="secure_apps_pin">Proteger apps com um PIN</string>
+    <string name="set_locker_pin">Definir PIN do Bloqueador</string>
+    <string name="enter_pin_desc">Digite um PIN numérico de 4 dígitos para proteger seus apps.</string>
+    <string name="pin">PIN</string>
+    <string name="set_pin">DEFINIR PIN</string>
+    <string name="change_pin">ALTERAR PIN</string>
+    <string name="search_apps_to_lock">Pesquisar apps para bloquear…</string>
+
+    <!-- Diagnostics Screen -->
+    <string name="diagnostics_title">DIAGNÓSTICOS DO SISTEMA</string>
+    <string name="live_utilization">UTILIZAÇÃO AO VIVO</string>
+    <string name="cpu_load">Carga da CPU</string>
+    <string name="gpu_load">Carga da GPU</string>
+    <string name="ram_used">RAM Usada</string>
+    <string name="current_fps">FPS Atual</string>
+    <string name="processing_power">Poder de Processamento</string>
+    <string name="cpu_hardware">Hardware da CPU</string>
+    <string name="core_count">Contagem de Núcleos</string>
+    <string name="ram_capacity">Capacidade de RAM</string>
+    <string name="internal_storage">ARMAZENAMENTO INTERNO</string>
+    <string name="storage_used">Usado: %1$s</string>
+    <string name="storage_total">Total: %1$s</string>
+    <string name="battery_health">Saúde da Bateria</string>
+    <string name="current_level">Nível Atual</string>
+    <string name="temperature">Temperatura</string>
+    <string name="health_status">Estado de Saúde</string>
+    <string name="system_software">Software do Sistema</string>
+    <string name="security">Segurança</string>
+
+    <!-- Hardware Testing -->
+
+    <!-- Junk Cleaner -->
+    <string name="junk_cleaner">Limpador de Lixo</string>
+    <string name="total_junk_detected">TOTAL DE LIXO DETECTADO</string>
+    <string name="junk_clean_desc">Limpar o armazenamento para melhorar a velocidade de leitura/escrita</string>
+    <string name="junk_deep_scan_desc">O escaneamento profundo requer \'Acesso a Todos os Arquivos\' para encontrar lixo fora das pastas do app.</string>
+    <string name="searching_junk">Procurando arquivos inúteis…</string>
+    <string name="storage_clean">O armazenamento está limpo</string>
+    <string name="purge_junk">EXPURGAR LIXO</string>
+    <string name="purging">EXPURGANDO…</string>
+    <string name="fstrim">LIMPEZA DE ARMAZENAMENTO DE HARDWARE (FSTRIM)</string>
+
+    <!-- System Tools -->
+    <string name="advanced_system_tools">FERRAMENTAS DE SISTEMA AVANÇADAS</string>
+    <string name="monitoring">Monitoramento</string>
+    <string name="task_manager">Gerenciador de Tarefas</string>
+    <string name="task_manager_desc">Gerenciar processos em execução e pontuações OOM</string>
+    <string name="screen_time">Tempo de Uso</string>
+    <string name="screen_time_desc">Rastrear o uso de aplicativos e bem-estar digital</string>
+    <string name="network_connectivity">Rede e Conectividade</string>
+    <string name="ping_utility">Utilitário de Ping</string>
+    <string name="ping_utility_desc">Testar latência e estabilidade da rede</string>
+    <string name="usb_utilities">Utilitários USB</string>
+    <string name="usb_utilities_desc">Gerenciar tethering USB e transferência de arquivos</string>
+    <!-- Freezer -->
+    <string name="app_freezer">Congelador de Apps</string>
+    <string name="freeze_all">Congelar Todos</string>
+    <string name="unfreeze_all">Descongelar Todos</string>
+    <string name="no_apps_found">Nenhum app encontrado</string>
+    <string name="frozen_hibernated">CONGELADO E HIBERNADO</string>
+    <string name="active_background">ATIVO EM SEGUNDO PLANO</string>
+    <string name="freeze_desc">O congelamento de apps requer Mecanismo ou Root para funcionar. Ative um nas Configurações.</string>
+
+    <!-- Game Booster -->
+    <string name="game_booster_pro">GAME BOOSTER PRO</string>
+    <string name="hardware_tweaks">AJUSTES DE HARDWARE</string>
+    <string name="installed_games">JOGOS INSTALADOS</string>
+    <string name="add_game">ADICIONAR JOGO</string>
+    <string name="no_games_detected">Nenhum jogo detectado. Inicie-os manualmente para otimizar.</string>
+    <string name="boost">IMPULSIONAR</string>
+    <string name="launch">INICIAR</string>
+    <string name="preparing_game">Preparando Jogo</string>
+
+    <!-- Overlay / Dialogs -->
+    <string name="system_optimization">OTIMIZAÇÃO DO SISTEMA</string>
+    <string name="cpu_cooling">RESFRIAMENTO DA CPU</string>
+    <string name="do_not_close">Não feche o app durante a execução</string>
+    <string name="hibernate_clean">HIBERNAR E LIMPAR</string>
+    <string name="purge_caches">LIMPAR CACHES</string>
+    <string name="cleanup_confirm_title">Confirmar Limpeza</string>
+    <string name="optimization_strength">Força de Otimização</string>
+    <string name="optimization_tasks">Tarefas de Otimização</string>
+    <string name="boost_mode">Modo: %1$s</string>
+    <string name="add_game_as_game">Adicionar App como Jogo</string>
+    <string name="optimizing_resources">Otimizando recursos do sistema para %1$s…</string>
+    <string name="hibernating_background_apps">Hibernando aplicativos em segundo plano</string>
+    <string name="locking_high_priority_ram">Bloqueando RAM de alta prioridade</string>
+    <string name="applying_gpu_mode">Aplicando modo de desempenho da GPU</string>
+    <string name="disabled_apps">Apps Desativados</string>
+    <string name="disabled_apps_desc">Estes apps estão desativados no momento e não aparecerão na gaveta de apps do sistema. Você pode reativá-los aqui.</string>
+    <string name="no_disabled_apps_found">Nenhum app desativado encontrado</string>
+    <string name="shield_whitelist">Escudo (Lista Branca)</string>
+    <string name="shield_desc">Os apps nesta lista serão ignorados durante os processos de limpeza e otimização.</string>
+    <string name="no_apps_protected">Nenhum app protegido</string>
+
+    <string name="core_count_val">%1$d Núcleos</string>
+    <string name="optimize_runtime">OTIMIZAR RUNTIME</string>
+    <string name="initializing">Inicializando…</string>
+    <string name="no_active_connections">Nenhuma conexão TCP ativa encontrada.</string>
+    <string name="local_val">Local: %1$s</string>
+    <string name="remote_val">Remoto: %1$s</string>
+    <string name="apps_with_permission">Apps com esta permissão:</string>
+    <string name="select_permission_desc">Selecione uma permissão para ver os apps concedidos</string>
+    <string name="apps_have_permission">%1$d apps têm esta permissão</string>
+    <string name="system_resource_load">Carga de Recursos do Sistema</string>
+    <string name="ram_load">Carga de RAM</string>
+    <string name="network_latency">Latência de Rede</string>
+    <string name="ms_val">%1$d ms</string>
+    <string name="rtt_desc">RTT para Google DNS (8.8.8.8)</string>
+    <string name="screen_time_title">Tempo de Uso (Últimas 24h)</string>
+    <string name="no_usage_data">Nenhum dado de uso disponível ou permissão negada</string>
+
+    <!-- Battery Health -->
+    <string name="health_good">Bom</string>
+    <string name="health_overheat">Superaquecimento</string>
+    <string name="health_dead">Morto</string>
+    <string name="health_over_voltage">Sobretensão</string>
+    <string name="health_unknown">Desconhecido</string>
+
+    <!-- CPU -->
+    <string name="cpu_unknown">Desconhecido</string>
+
+    <!-- Toasts -->
+    <string name="permissions_granted">Todas as permissões essenciais concedidas</string>
+    <string name="requires_engine_root">Requer Mecanismo ou Root para concessão automática</string>
+    <string name="engine_refreshed">Estado do mecanismo atualizado</string>
+
+    <!-- App Usage -->
+    <string name="app_memory_usage">USO DE MEMÓRIA DO APP</string>
+    <!-- Optimization Modes -->
+    <string name="standard">Padrão</string>
+    <string name="active">Ativo</string>
+    <string name="system">Sistema</string>
+    <string name="privileged">Privilegiado</string>
+    <string name="shizuku">Shizuku</string>
+    <string name="service_running">Serviço em execução</string>
+    <string name="tap_to_grant">Toque para conceder</string>
+    <string name="not_connected">Não conectado</string>
+    <string name="root">Root</string>
+    <string name="kernel_access">Acesso ao kernel</string>
+    <string name="not_rooted">Sem root</string>
+    <string name="system_mode_hint">Usando permissões privilegiadas do sistema para forçar a parada e limpar caches.</string>
+    <string name="shizuku_grant_hint">Toque novamente para conceder permissão.</string>
+    <string name="shizuku_not_running">O mecanismo não está funcionando — toque para iniciar o app de configuração.</string>
+    <string name="shizuku_not_found">Mecanismo não encontrado — toque para instalar da Play Store.</string>
+    <string name="root_granted_hint">ACESSO ROOT CONCEDIDO: Otimização em nível de kernel ativa.</string>
+    <string name="no_root_hint">Nenhum acesso root detectado.</string>
+
+    <string name="booster_active">ACELERADOR ATIVO</string>
+    <string name="game_booster">ACELERADOR DE JOGOS</string>
+    <string name="launch_booster">Iniciar GameBooster</string>
+    <string name="install_booster_desc">Instale o GameBooster para o máximo desempenho</string>
+    <string name="high_perf">Alto Desemp.</string>
+    <string name="threat_count_detected">%1$d AMEAÇAS</string>
+    <string name="secure">SEGURO</string>
+    <string name="granted_label">CONCEDIDO</string>
+    <string name="missing_label">FALTANDO</string>
+    <!-- Operation Status -->
+    <string name="quick_boost_task">Impulso rápido de RAM…</string>
+    <string name="deep_opt_task">Otimização profunda do sistema…</string>
+    <string name="initializing_task">Inicializando…</string>
+    <string name="scanning_storage_task">Verificando armazenamento…</string>
+    <string name="purging_junk_task">Expurgando lixo…</string>
+    <string name="cooling_cpu_task">Resfriando CPU…</string>
+    <string name="waking_app_task">Acordando app da hibernação…</string>
+    <string name="native_vm_opt_task">Otimização nativa e de VM…</string>
+    <string name="freezing_apps_task">Congelando apps…</string>
+    <string name="unfreezing_apps_task">Descongelando apps…</string>
+    <string name="clearing_cache_task">Limpando cache de apps…</string>
+    <string name="uninstalling_app_task">Desinstalando app…</string>
+
+    <!-- Success Messages -->
+    <string name="quick_boost_complete">✓ Impulso rápido concluído: %1$s liberados</string>
+    <string name="deep_clean_complete">✓ Limpeza profunda concluída: %1$s liberados</string>
+    <string name="hardware_optimized">Hardware otimizado para %1$s</string>
+    <string name="app_unfrozen">✓ App descongelado</string>
+    <string name="app_frozen">✓ App congelado</string>
+    <string name="all_apps_frozen">✓ Todos os apps já estão congelados</string>
+    <string name="apps_frozen_count">✓ %1$d/%2$d apps congelados</string>
+    <string name="no_frozen_apps_found">✓ Nenhum app congelado encontrado</string>
+    <string name="apps_unfrozen_count">✓ %1$d/%2$d apps descongelados</string>
+    <string name="app_suspended">✓ App suspenso</string>
+    <string name="app_unsuspended">✓ App reativado</string>
+    <string name="app_disabled">✓ App desativado</string>
+    <string name="app_enabled">✓ App ativado</string>
+    <string name="app_force_stopped">✓ App parado à força</string>
+    <string name="bg_run_ignored">✓ Execução em segundo plano ignorada</string>
+    <string name="bg_run_allowed">✓ Execução em segundo plano permitida</string>
+    <string name="standby_label">✓ Em espera: %1$s</string>
+    <string name="cache_cleared">✓ Cache limpo para %1$s</string>
+    <string name="cleaned_msg">Limpou %1$s</string>
+    <string name="cleaned_others_msg">Limpou %1$s e outros %2$d</string>
+    <string name="uninstall_success">App desinstalado com sucesso</string>
+
+    <!-- Error/Warning Messages -->
+    <string name="system_blocked_launch">Sistema bloqueou o início: %1$s</string>
+    <string name="launcher_not_found">Atividade de início não encontrada para %1$s</string>
+    <string name="usage_settings_error">Não foi possível abrir as configurações de uso</string>
+    <string name="freeze_requires_access">❌ O congelamento requer Shizuku ou Root</string>
+    <string name="unfreeze_requires_access">❌ O descongelamento requer Shizuku ou Root</string>
+    <string name="op_in_progress">⏳ Operação em curso</string>
+    <string name="app_not_found">✗ App não encontrado</string>
+    <string name="freeze_failed">✗ Falha ao congelar app</string>
+    <string name="unfreeze_failed">✗ Falha ao descongelar app</string>
+    <string name="suspend_requires_pie">⚠️ A suspensão requer Android 9+</string>
+    <string name="unsuspend_requires_pie">⚠️ A reativação requer Android 9+</string>
+    <string name="activity_not_available">Atividade não disponível</string>
+    <string name="force_stop_failed">✗ Falha ao forçar parada do app</string>
+    <string name="bg_update_failed">✗ Falha ao atualizar configuração de segundo plano</string>
+    <string name="standby_update_failed">✗ Falha ao atualizar o bucket de espera</string>
+    <string name="cache_clear_failed">✗ Falha ao limpar cache para %1$s</string>
+    <string name="uninstall_failed">Falha na desinstalação</string>
+    <string name="requires_android_11">Requer Android 11+</string>
+    <string name="operation_failed">Falha na operação</string>
+    <!-- Diagnostics Labels -->
+    <string name="healthy_desc">Todos os sistemas de hardware estão funcionando corretamente.</string>
+    <string name="action_required_desc">Alguns sistemas exigem otimização.</string>
+    <string name="vm_runtime_health">Saúde do Tempo de Execução da VM</string>
+    <string name="dalvik_art_heap">Heap Dalvik/ART</string>
+    <string name="native_heap">Heap Nativo</string>
+    <string name="vm_version">Versão da VM</string>
+    <string name="cluster_freq_hub">Hub de Frequência do Cluster</string>
+    <string name="core_val">NÚCLEO %1$d</string>
+    <string name="kernel_ram_profile">Perfil de RAM do Kernel</string>
+    <string name="active_in_use">Ativo (Em uso)</string>
+    <string name="inactive_standby">Inativo (Em espera)</string>
+    <string name="kernel_slab">Slab do Kernel</string>
+    <string name="kernel_slab_desc">A memória Kernel Slab contém objetos de kernel em cache, como inodes e dentries. A otimização profunda irá liberá-los para o disco.</string>
+    <string name="ram_arch_breakdown">Divisão da Arquitetura de RAM</string>
+    <string name="physical_capacity">Capacidade Física</string>
+    <string name="cached_buffers">Cache / Buffers</string>
+    <string name="reclaimable_slab">Slab Recuperável</string>
+    <string name="zram_swap_total">Total de ZRAM / Swap</string>
+    <string name="zram_swap_free">ZRAM / Swap Livre</string>
+    <string name="cached_memory_desc">A memória cache está imediatamente disponível para os apps quando necessária. Valores de cache altos são saudáveis, pois aceleram a inicialização dos apps.</string>
+    <string name="realtime_network">Rede em Tempo Real</string>
+    <string name="download">DOWNLOAD</string>
+    <string name="upload">UPLOAD</string>
+    <string name="optimization_result_banner">%1$s otimizado: %2$s · %3$s</string>
+
+    <string name="app_drainers_desc">Estes aplicativos têm alta atividade em segundo plano em relação ao uso em primeiro plano. Hiberná-los estenderá significativamente a vida útil da bateria.</string>
+    <string name="selection_label">SELEÇÃO</string>
+    <string name="core_label">NÚCLEO</string>
+    <string name="auto_clean_result">Resultado da Limpeza Automática</string>
+    <string name="auto_clean_result_desc">Mostrar notificação após a limpeza em segundo plano</string>
+    <string name="auto_kill_background">Auto-Kill em Segundo Plano</string>
+    <string name="auto_kill_background_desc">Forçar a parada de apps após 1 minuto em segundo plano</string>
+    <string name="auto_kill_inactive">Auto-Kill Inativo</string>
+    <string name="auto_kill_inactive_desc">Forçar a parada de apps após 5 minutos de inatividade</string>
+</resources>

@@ -1,0 +1,370 @@
+<resources>
+    <string name="app_name">AppOff</string>
+    <string name="notif_channel_name">AppOff Monitor</string>
+    <string name="notif_channel_desc">قراءة مباشرة للذاكرة الحرة مع إجراء تنظيف بنقرة واحدة</string>
+
+    <string name="system_monitor">مراقب النظام</string>
+    <string name="ram_cleaner">APPOFF</string>
+    <string name="app_drainers">مستهلكو التطبيقات</string>
+    <string name="running_processes">العمليات الجارية</string>
+    <string name="settings">الإعدادات</string>
+
+    <!-- Customization -->
+    <string name="font_size">حجم الخط</string>
+    <string name="icon_style">نمط الأيقونة</string>
+    <string name="icon_rounded">مستدير</string>
+    <string name="icon_sharp">حاد</string>
+    <string name="icon_cyberpunk">سايبربانك</string>
+
+    <!-- Developer Power Tools -->
+    <string name="developer_power_tools">أدوات المطور القوية</string>
+    <string name="wireless_debugging">تصحيح الأخطاء لاسلكيًا</string>
+    <string name="enable_dev_options">تمكين خيارات المطور</string>
+    <string name="debug_desc">تبديل ميزات تصحيح الأخطاء على مستوى النظام</string>
+
+    <!-- Language -->
+    <string name="app_language">لغة التطبيق</string>
+
+    <!-- Common -->
+    <string name="back">رجوع</string>
+    <string name="done">تم</string>
+    <string name="ok">موافق</string>
+    <string name="cancel">إلغاء</string>
+    <string name="close">إغلاق</string>
+    <string name="save">حفظ</string>
+    <string name="apply">تطبيق</string>
+    <string name="got_it">فهمت</string>
+    <string name="searching">جاري البحث…</string>
+    <string name="select_all">تحديد الكل</string>
+    <string name="deselect_all">إلغاء تحديد الكل</string>
+    <string name="show_system">إظهار النظام</string>
+    <string name="hide_system">إخفاء النظام</string>
+    <string name="search_processes">بحث في العمليات…</string>
+    <string name="search_apps">بحث في التطبيقات…</string>
+    <string name="permission_required">الإذن مطلوب</string>
+    <string name="grant">منح</string>
+    <string name="open_settings">فتح الإعدادات</string>
+    <string name="requires_root_hibernate">يتطلب روت أو إسبات عميق</string>
+
+    <!-- Main Screen -->
+    <string name="system_action_required">مطلوب إجراء للنظام</string>
+    <string name="system_health_optimal">صحة النظام: مثالية</string>
+    <string name="calibrating_system">جاري معايرة النظام…</string>
+    <string name="critical_performance">أداء حرج</string>
+    <string name="heavy_system_load">حمل نظام ثقيل</string>
+    <string name="clean_system">تنظيف النظام</string>
+    <string name="system_cleaner">منظف النظام</string>
+    <string name="ram_recovered">تم استرداد %1$s من الذاكرة</string>
+    <string name="processes_cleared">تم مسح %1$d عملية</string>
+    <string name="apps_selected_count">تم تحديد %1$d تطبيق</string>
+    <string name="running_processes_desc">اضغط على تطبيق لتحديده للتحسين. استخدم قائمة (⋮) للإجراءات العميقة مثل فرض الإيقاف أو التعليق.</string>
+
+    <!-- Settings Screen -->
+    <string name="system_configuration">تكوين النظام</string>
+    <string name="optimization_mode">وضع التحسين</string>
+    <string name="appearance">المظهر</string>
+    <string name="app_theme">سمة التطبيق</string>
+    <string name="theme_light">فاتح</string>
+    <string name="theme_dark">داكن</string>
+    <string name="theme_black">أسود</string>
+    <string name="theme_system">النظام</string>
+    <string name="accent_color">لون التمييز</string>
+    <string name="card_color">لون البطاقة</string>
+    <string name="haptic_feedback">الاستجابة اللمسية</string>
+    <string name="haptic_feedback_desc">تفعيل نبض لمسي عند اكتمال المهمة.</string>
+    <string name="feedback_strength">قوة الاستجابة</string>
+    <string name="low">منخفضة</string>
+    <string name="high">عالية</string>
+    <string name="automation">الأتمتة</string>
+    <string name="system_tweaks">تعديلات النظام</string>
+    <string name="turbo_mode">وضع التربو</string>
+    <string name="turbo_mode_desc">تنظيف عدواني للخلفية للأجهزة ذات الذاكرة المنخفضة</string>
+    <string name="floating_ram_bubble">فقاعة الذاكرة العائمة</string>
+    <string name="floating_ram_bubble_desc">مراقب الذاكرة في الوقت الفعلي فوق التطبيقات الأخرى</string>
+    <string name="fast_animations">رسوم متحركة سريعة</string>
+    <string name="fast_animations_desc">تسريع انتقالات واجهة المستخدم (يتطلب WRITE_SECURE_SETTINGS)</string>
+    <string name="force_hw_accel">فرض تسريع الأجهزة</string>
+    <string name="force_hw_accel_desc">فرض عرض GPU لجميع التطبيقات (يتطلب WRITE_SECURE_SETTINGS)</string>
+    <string name="developer_options">خيارات المطور</string>
+    <string name="developer_options_desc">الوصول إلى إعدادات المطور على مستوى النظام</string>
+    <string name="troubleshooting">استكشاف الأخطاء وإصلاحها</string>
+    <string name="troubleshooting_desc">إذا لم يتم إيقاف التطبيقات أو كان التحسين يبدو بطيئًا، فاستخدم الأدوات أدناه.</string>
+    <string name="refresh_engine_state">تحديث حالة المحرك</string>
+    <string name="battery_optimization_disabled">تحسين البطارية: معطل</string>
+    <string name="disable_battery_limits">تعطيل حدود البطارية</string>
+    <string name="manage_permissions">إدارة الأذونات</string>
+    <string name="technical_audit">التدقيق الفني</string>
+    <string name="permission_hub">مركز الأذونات</string>
+    <string name="permission_hub_desc">تدقيق امتيازات النظام والمنح التلقائي</string>
+    <string name="app_info">معلومات التطبيق</string>
+    <string name="version">الإصدار</string>
+    <string name="build">البناء</string>
+    <string name="developed_by">تم التطوير بواسطة THE BLACK SHEEP</string>
+
+    <!-- Optimization Tasks -->
+    <string name="ram_boost">تعزيز الذاكرة</string>
+    <string name="ram_boost_desc">حقن ضغط الذاكرة لتطهير عمليات التخزين المؤقت في الخلفية.</string>
+    <string name="app_hibernation">إسبات التطبيق</string>
+    <string name="app_hibernation_desc">فرض إيقاف عميق لجميع التطبيقات المحددة.</string>
+    <string name="cache_purge">تطهير التخزين المؤقت</string>
+    <string name="cache_purge_desc">فرض تقليم جميع ذاكرات التخزين المؤقت للحزم لاسترداد الذاكرة القائمة على التخزين.</string>
+    <string name="ram_refresh">تنشيط الذاكرة</string>
+    <string name="ram_refresh_desc">حث النظام على استعادة الذاكرة من خدمات الخلفية.</string>
+    <string name="secure_settings_tweak">تعديل الإعدادات الآمنة</string>
+    <string name="secure_settings_tweak_desc">تحسين معلمات النظام لإدارة عدوانية للخلفية.</string>
+    <string name="kernel_optimization">تحسين النواة</string>
+    <string name="kernel_optimization_desc">إسقاط ذاكرات التخزين المؤقت للصفحات والعقد لإعادة الضبط على مستوى الأجهزة.</string>
+
+    <!-- App Locker -->
+    <string name="app_locker_title">قفل التطبيقات</string>
+    <string name="enable_locker">تمكين القفل</string>
+    <string name="secure_apps_pin">تأمين التطبيقات برمز PIN</string>
+    <string name="set_locker_pin">تعيين رمز PIN للقفل</string>
+    <string name="enter_pin_desc">أدخل رمز PIN مكونًا من 4 أرقام لتأمين تطبيقاتك.</string>
+    <string name="pin">رمز PIN</string>
+    <string name="set_pin">تعيين PIN</string>
+    <string name="change_pin">تغيير PIN</string>
+    <string name="search_apps_to_lock">بحث عن تطبيقات لقفلها…</string>
+
+    <!-- Diagnostics Screen -->
+    <string name="diagnostics_title">تشخيصات النظام</string>
+    <string name="live_utilization">الاستخدام المباشر</string>
+    <string name="cpu_load">حمل المعالج</string>
+    <string name="gpu_load">حمل معالج الرسوميات</string>
+    <string name="ram_used">الذاكرة المستخدمة</string>
+    <string name="current_fps">معدل الإطارات الحالي</string>
+    <string name="processing_power">قوة المعالجة</string>
+    <string name="cpu_hardware">عتاد المعالج</string>
+    <string name="core_count">عدد الأنوية</string>
+    <string name="ram_capacity">سعة الذاكرة</string>
+    <string name="internal_storage">التخزين الداخلي</string>
+    <string name="storage_used">المستخدم: %1$s</string>
+    <string name="storage_total">الإجمالي: %1$s</string>
+    <string name="battery_health">صحة البطارية</string>
+    <string name="current_level">المستوى الحالي</string>
+    <string name="temperature">درجة الحرارة</string>
+    <string name="health_status">حالة الصحة</string>
+    <string name="system_software">برامج النظام</string>
+    <string name="security">الأمان</string>
+
+    <!-- Hardware Testing -->
+
+    <!-- Junk Cleaner -->
+    <string name="junk_cleaner">منظف الملفات الزائدة</string>
+    <string name="total_junk_detected">إجمالي الملفات الزائدة المكتشفة</string>
+    <string name="junk_clean_desc">تنظيف التخزين لتحسين سرعة القراءة/الكتابة</string>
+    <string name="junk_deep_scan_desc">يتطلب الفحص العميق للتخزين "الوصول إلى جميع الملفات" للعثور على الملفات الزائدة خارج مجلدات التطبيقات.</string>
+    <string name="searching_junk">جاري البحث عن ملفات زائدة…</string>
+    <string name="storage_clean">التخزين نظيف</string>
+    <string name="purge_junk">تطهير الملفات الزائدة</string>
+    <string name="purging">جاري التطهير…</string>
+    <string name="fstrim">تحسين التخزين المادي (FSTRIM)</string>
+
+    <!-- System Tools -->
+    <string name="advanced_system_tools">أدوات النظام المتقدمة</string>
+    <string name="monitoring">المراقبة</string>
+    <string name="task_manager">مدير المهام</string>
+    <string name="task_manager_desc">إدارة العمليات الجارية ونتائج OOM</string>
+    <string name="screen_time">وقت الشاشة</string>
+    <string name="screen_time_desc">تتبع استخدام التطبيق والرفاهية الرقمية</string>
+    <string name="network_connectivity">الشبكة والاتصال</string>
+    <string name="ping_utility">أداة Ping</string>
+    <string name="ping_utility_desc">اختبار زمن وصول الشبكة واستقرارها</string>
+    <string name="usb_utilities">أدوات USB</string>
+    <string name="usb_utilities_desc">إدارة تقييد USB ونقل الملفات</string>
+    <!-- Freezer -->
+    <string name="app_freezer">مجمد التطبيقات</string>
+    <string name="freeze_all">تجميد الكل</string>
+    <string name="unfreeze_all">إلغاء تجميد الكل</string>
+    <string name="no_apps_found">لم يتم العثور على تطبيقات</string>
+    <string name="frozen_hibernated">مجمد ومسبت</string>
+    <string name="active_background">نشط في الخلفية</string>
+    <string name="freeze_desc">يتطلب تجميد التطبيقات المحرك أو الروت ليعمل. يرجى تمكين أحدهما في الإعدادات.</string>
+
+    <!-- Game Booster -->
+    <string name="game_booster_pro">GAME BOOSTER PRO</string>
+    <string name="hardware_tweaks">تعديلات العتاد</string>
+    <string name="installed_games">الألعاب المثبتة</string>
+    <string name="add_game">إضافة لعبة</string>
+    <string name="no_games_detected">لم يتم اكتشاف ألعاب. قم بتشغيلها يدويًا لتحسينها.</string>
+    <string name="boost">تعزيز</string>
+    <string name="launch">تشغيل</string>
+    <string name="preparing_game">جاري تحضير اللعبة</string>
+
+    <!-- Overlay / Dialogs -->
+    <string name="system_optimization">تحسين النظام</string>
+    <string name="cpu_cooling">تبريد المعالج</string>
+    <string name="do_not_close">لا تغلق التطبيق أثناء التنفيذ</string>
+    <string name="hibernate_clean">إسبات وتنظيف</string>
+    <string name="purge_caches">تطهير التخزين المؤقت</string>
+    <string name="cleanup_confirm_title">تأكيد التنظيف</string>
+    <string name="optimization_strength">قوة التحسين</string>
+    <string name="optimization_tasks">مهام التحسين</string>
+    <string name="boost_mode">الوضع: %1$s</string>
+    <string name="add_game_as_game">إضافة التطبيق كلعبة</string>
+    <string name="optimizing_resources">جاري تحسين موارد النظام لـ %1$s…</string>
+    <string name="hibernating_background_apps">جاري إسبات تطبيقات الخلفية</string>
+    <string name="locking_high_priority_ram">قفل الذاكرة عالية الأولوية</string>
+    <string name="applying_gpu_mode">تطبيق وضع أداء GPU</string>
+    <string name="disabled_apps">التطبيقات المعطلة</string>
+    <string name="disabled_apps_desc">هذه التطبيقات معطلة حاليًا ولن تظهر في درج تطبيقات نظامك. يمكنك إعادة تمكينها هنا.</string>
+    <string name="no_disabled_apps_found">لم يتم العثور على تطبيقات معطلة</string>
+    <string name="shield_whitelist">الدرع (القائمة البيضاء)</string>
+    <string name="shield_desc">سيتم تجاهل التطبيقات الموجودة في هذه القائمة أثناء عمليات التنظيف والتحسين.</string>
+    <string name="no_apps_protected">لا توجد تطبيقات محمية</string>
+
+    <string name="core_count_val">%1$d أنوية</string>
+    <string name="optimize_runtime">تحسين وقت التشغيل</string>
+    <string name="initializing">جاري التهيئة…</string>
+    <string name="no_active_connections">لم يتم العثور على اتصالات TCP نشطة.</string>
+    <string name="local_val">محلي: %1$s</string>
+    <string name="remote_val">بعيد: %1$s</string>
+    <string name="apps_with_permission">تطبيقات بهذا الإذن:</string>
+    <string name="select_permission_desc">حدد إذنًا لمشاهدة التطبيقات الممنوحة</string>
+    <string name="apps_have_permission">%1$d تطبيقات لديها هذا الإذن</string>
+    <string name="system_resource_load">حمل موارد النظام</string>
+    <string name="ram_load">حمل الذاكرة</string>
+    <string name="network_latency">زمن وصول الشبكة</string>
+    <string name="ms_val">%1$d مللي ثانية</string>
+    <string name="rtt_desc">زمن الانتقال إلى Google DNS (8.8.8.8)</string>
+    <string name="screen_time_title">وقت الشاشة (آخر 24 ساعة)</string>
+    <string name="no_usage_data">لا توجد بيانات استخدام متاحة أو تم رفض الإذن</string>
+
+    <!-- Battery Health -->
+    <string name="health_good">جيدة</string>
+    <string name="health_overheat">حرارة زائدة</string>
+    <string name="health_dead">تالفة</string>
+    <string name="health_over_voltage">جهد زائد</string>
+    <string name="health_unknown">غير معروفة</string>
+
+    <!-- CPU -->
+    <string name="cpu_unknown">غير معروف</string>
+
+    <!-- Toasts -->
+    <string name="permissions_granted">تم منح جميع الأذونات الأساسية</string>
+    <string name="requires_engine_root">يتطلب المحرك أو الروت للمنح التلقائي</string>
+    <string name="engine_refreshed">تم تحديث حالة المحرك</string>
+
+    <!-- App Usage -->
+    <string name="app_memory_usage">استخدام ذاكرة التطبيق</string>
+    <!-- Optimization Modes -->
+    <string name="standard">قياسي</string>
+    <string name="active">نشط</string>
+    <string name="system">نظام</string>
+    <string name="privileged">مميز</string>
+    <string name="shizuku">Shizuku</string>
+    <string name="service_running">الخدمة تعمل</string>
+    <string name="tap_to_grant">انقر للمنح</string>
+    <string name="not_connected">غير متصل</string>
+    <string name="root">روت</string>
+    <string name="kernel_access">الوصول إلى النواة</string>
+    <string name="not_rooted">لا يوجد روت</string>
+    <string name="system_mode_hint">استخدام أذونات النظام المميزة لفرض الإيقاف ومسح ذاكرة التخزين المؤقت.</string>
+    <string name="shizuku_grant_hint">انقر مرة أخرى لمنح الإذن.</string>
+    <string name="shizuku_not_running">المحرك لا يعمل — انقر لبدء تطبيق الإعداد.</string>
+    <string name="shizuku_not_found">لم يتم العثور على المحرك — انقر للتثبيت من متجر Play.</string>
+    <string name="root_granted_hint">تم منح صلاحية الروت: تحسين مستوى النواة نشط.</string>
+    <string name="no_root_hint">لم يتم اكتشاف صلاحية الروت.</string>
+
+    <string name="booster_active">المعزز نشط</string>
+    <string name="game_booster">معزز الألعاب</string>
+    <string name="launch_booster">تشغيل GameBooster</string>
+    <string name="install_booster_desc">ثبّت GameBooster للحصول على أقصى أداء للألعاب</string>
+    <string name="high_perf">أداء عالٍ</string>
+    <string name="threat_count_detected">%1$d تهديدات</string>
+    <string name="secure">آمن</string>
+    <string name="granted_label">ممنوح</string>
+    <string name="missing_label">مفقود</string>
+    <!-- Operation Status -->
+    <string name="quick_boost_task">تعزيز سريع للذاكرة…</string>
+    <string name="deep_opt_task">تحسين عميق للنظام…</string>
+    <string name="initializing_task">جاري التهيئة…</string>
+    <string name="scanning_storage_task">جاري فحص التخزين…</string>
+    <string name="purging_junk_task">جاري تطهير الملفات الزائدة…</string>
+    <string name="cooling_cpu_task">جاري تبريد المعالج…</string>
+    <string name="waking_app_task">جاري إيقاظ التطبيق من الإسبات…</string>
+    <string name="native_vm_opt_task">تحسين النواة والآلة الافتراضية…</string>
+    <string name="freezing_apps_task">جاري تجميد التطبيقات…</string>
+    <string name="unfreezing_apps_task">جاري إلغاء تجميد التطبيقات…</string>
+    <string name="clearing_cache_task">جاري مسح ذاكرة التخزين المؤقت…</string>
+    <string name="uninstalling_app_task">جاري إلغاء تثبيت التطبيق…</string>
+
+    <!-- Success Messages -->
+    <string name="quick_boost_complete">✓ اكتمل التعزيز السريع: تم تحرير %1$s</string>
+    <string name="deep_clean_complete">✓ اكتمل التنظيف العميق: تم تحرير %1$s</string>
+    <string name="hardware_optimized">تم تحسين العتاد لـ %1$s</string>
+    <string name="app_unfrozen">✓ تم إلغاء تجميد التطبيق</string>
+    <string name="app_frozen">✓ تم تجميد التطبيق</string>
+    <string name="all_apps_frozen">✓ جميع التطبيقات مجمدة بالفعل</string>
+    <string name="apps_frozen_count">✓ تم تجميد %1$d/%2$d من التطبيقات</string>
+    <string name="no_frozen_apps_found">✓ لم يتم العثور على تطبيقات مجمدة</string>
+    <string name="apps_unfrozen_count">✓ تم إلغاء تجميد %1$d/%2$d من التطبيقات</string>
+    <string name="app_suspended">✓ تم تعليق التطبيق</string>
+    <string name="app_unsuspended">✓ تم إلغاء تعليق التطبيق</string>
+    <string name="app_disabled">✓ تم تعطيل التطبيق</string>
+    <string name="app_enabled">✓ تم تمكين التطبيق</string>
+    <string name="app_force_stopped">✓ تم إيقاف التطبيق إجبارياً</string>
+    <string name="bg_run_ignored">✓ تم تجاهل التشغيل في الخلفية</string>
+    <string name="bg_run_allowed">✓ تم السماح بالتشغيل في الخلفية</string>
+    <string name="standby_label">✓ وضع الاستعداد: %1$s</string>
+    <string name="cache_cleared">✓ تم مسح ذاكرة التخزين المؤقت لـ %1$s</string>
+    <string name="cleaned_msg">تم تنظيف %1$s</string>
+    <string name="cleaned_others_msg">تم تنظيف %1$s و%2$d آخرين</string>
+    <string name="uninstall_success">تم إلغاء تثبيت التطبيق بنجاح</string>
+
+    <!-- Error/Warning Messages -->
+    <string name="system_blocked_launch">حظر النظام التشغيل: %1$s</string>
+    <string name="launcher_not_found">لم يتم العثور على نشاط المشغل لـ %1$s</string>
+    <string name="usage_settings_error">تعذر فتح إعدادات الاستخدام</string>
+    <string name="freeze_requires_access">❌ التجميد يتطلب Shizuku أو صلاحية الروت</string>
+    <string name="unfreeze_requires_access">❌ إلغاء التجميد يتطلب Shizuku أو صلاحية الروت</string>
+    <string name="op_in_progress">⏳ العملية قيد التنفيذ</string>
+    <string name="app_not_found">✗ التطبيق غير موجود</string>
+    <string name="freeze_failed">✗ فشل تجميد التطبيق</string>
+    <string name="unfreeze_failed">✗ فشل إلغاء تجميد التطبيق</string>
+    <string name="suspend_requires_pie">⚠️ التعليق يتطلب إصدار Android 9 فأحدث</string>
+    <string name="unsuspend_requires_pie">⚠️ إلغاء التعليق يتطلب إصدار Android 9 فأحدث</string>
+    <string name="activity_not_available">النشاط غير متاح</string>
+    <string name="force_stop_failed">✗ فشل إيقاف التطبيق إجبارياً</string>
+    <string name="bg_update_failed">✗ فشل تحديث إعدادات الخلفية</string>
+    <string name="standby_update_failed">✗ فشل تحديث فئة الاستعداد</string>
+    <string name="cache_clear_failed">✗ فشل مسح ذاكرة التخزين المؤقت لـ %1$s</string>
+    <string name="uninstall_failed">فشل إلغاء التثبيت</string>
+    <string name="requires_android_11">يتطلب إصدار Android 11 فأحدث</string>
+    <string name="operation_failed">فشلت العملية</string>
+    <!-- Diagnostics Labels -->
+    <string name="healthy_desc">جميع أنظمة الأجهزة تعمل بشكل صحيح.</string>
+    <string name="action_required_desc">بعض الأنظمة تتطلب تحسينًا.</string>
+    <string name="vm_runtime_health">صحة وقت تشغيل VM</string>
+    <string name="dalvik_art_heap">كومة Dalvik/ART</string>
+    <string name="native_heap">الكومة الأصلية (Native)</string>
+    <string name="vm_version">إصدار VM</string>
+    <string name="cluster_freq_hub">مركز تردد العنقود</string>
+    <string name="core_val">النواة %1$d</string>
+    <string name="kernel_ram_profile">ملف تعريف RAM للنواة</string>
+    <string name="active_in_use">نشط (قيد الاستخدام)</string>
+    <string name="inactive_standby">غير نشط (وضع الاستعداد)</string>
+    <string name="kernel_slab">Kernel Slab</string>
+    <string name="kernel_slab_desc">تحتوي ذاكرة Kernel Slab على كائنات نواة مخزنة مؤقتًا مثل inodes وdentries. التحسين العميق سيقوم بتفريغها إلى القرص.</string>
+    <string name="ram_arch_breakdown">تفصيل هندسة RAM</string>
+    <string name="physical_capacity">السعة المادية</string>
+    <string name="cached_buffers">التخزين المؤقت / المخازن المؤقتة</string>
+    <string name="reclaimable_slab">Slab قابل للاسترداد</string>
+    <string name="zram_swap_total">إجمالي ZRAM / Swap</string>
+    <string name="zram_swap_free">ZRAM / Swap المتاح</string>
+    <string name="cached_memory_desc">الذاكرة المخزنة مؤقتًا متاحة على الفور للتطبيقات عند الحاجة. قيم التخزين المؤقت العالية صحية لأنها تسرع تشغيل التطبيقات.</string>
+    <string name="realtime_network">الشبكة في الوقت الفعلي</string>
+    <string name="download">تنزيل</string>
+    <string name="upload">تحميل</string>
+    <string name="optimization_result_banner">%1$s تم تحسينه: %2$s · %3$s</string>
+
+    <string name="app_drainers_desc">تتمتع هذه التطبيقات بنشاط عالٍ في الخلفية مقارنة باستخدامها في المقدمة. سيؤدي إسباتها إلى إطالة عمر البطارية بشكل كبير.</string>
+    <string name="selection_label">التحديد</string>
+    <string name="core_label">الأساسي</string>
+    <string name="auto_clean_result">نتيجة التنظيف التلقائي</string>
+    <string name="auto_clean_result_desc">إظهار إشعار بعد تنظيف الخلفية</string>
+    <string name="auto_kill_background">القتل التلقائي للخلفية</string>
+    <string name="auto_kill_background_desc">فرض إيقاف التطبيقات بعد دقيقة واحدة في الخلفية</string>
+    <string name="auto_kill_inactive">القتل التلقائي للتطبيقات غير النشطة</string>
+    <string name="auto_kill_inactive_desc">فرض إيقاف التطبيقات بعد 5 دقائق من عدم النشاط</string>
+</resources>
