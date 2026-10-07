@@ -116,5 +116,4 @@ Shizuku features need the [Shizuku](https://shizuku.rikka.app) app installed and
 
 - Developer: **The Blacksheep Software**
 - Third-party libraries are listed in the app under **Licenses** (Shizuku API, Jetpack Compose, AndroidX, Kotlin and others, mostly Apache License 2.0).
-- Project license: _add your license here (for example MIT or Apache-2.0)_.
-- Contact: _add your contact email here_.
+ 
